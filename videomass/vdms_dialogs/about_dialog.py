@@ -71,6 +71,7 @@ def show_about_dlg(parent, videomass_icon, aboutrel=about_app):
                        "(es_MX)")
     info.AddTranslator("Phil Aug <philiaug@live.fr> (fr_FR)")
     info.AddTranslator("MaiJZ https://github.com/maijz128 (zh_CN)")
+    info.AddTranslator("Peter Dave Hello <hsu@peterdavehello.org> (zh_TW)")
 
     info.SetArtists(['WxPython Phoenix <wxpython-users@googlegroups.com>',
                      'Gianluca Pernigotto <jeanlucperni@gmail.com>'])

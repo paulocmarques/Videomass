@@ -1,0 +1,3193 @@
+# Traditional Chinese (Taiwan) translations for Videomass.
+# Copyright (C) 2025 THE Videomass'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Videomass project.
+# Peter Dave Hello <hsu@peterdavehello.org>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Videomass 6.1.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-30 11:29+0200\n"
+"PO-Revision-Date: 2026-02-25 03:16+0800\n"
+"Last-Translator: Peter Dave Hello <hsu@peterdavehello.org>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, python-brace-format
+msgid ""
+"Unexpected error while deleting file contents:\n"
+"\n"
+"{0}"
+msgstr ""
+"刪除檔案內容時發生未預期的錯誤：\n"
+"\n"
+"{0}"
+
+msgid "Cross-platform graphical user interface for FFmpeg\n"
+msgstr "FFmpeg 的跨平台圖形使用者介面\n"
+
+msgid "Videomass supports mono and stereo audio channels. If you are not sure set to \"Auto\" and source values will be copied."
+msgstr ""
+"Videomass 支援單聲道與立體聲聲道。如果您不確定，請設為「自動」，系統將會複製"
+"來源數值。"
+
+msgid "The audio Rate (or sample-rate) is the sound sampling frequency and is measured in Hertz. The higher the frequency, the more true it will be to the sound source and the more the file will increase in size. For audio CD playback, set a sampling frequency of 44100 kHz. If you are not sure, set to \"Auto\" and source values will be copied."
+msgstr ""
+"音訊頻率 (或取樣率) 是聲音取樣的頻率，以赫茲 (Hertz) 為單位。頻率越高，聲音越"
+"接近原始來源，但檔案也會越大。若是音訊 CD 播放，請將取樣頻率設為 44100 kHz。"
+"如果您不確定，請設為「自動」，系統將會複製來源數值。"
+
+msgid "The audio bitrate affects the file compression and thus the quality of listening. The higher the value, the higher the quality."
+msgstr "音訊位元率會影響檔案壓縮率，進而影響聆聽品質。數值越高，品質越好。"
+
+msgid "Bit depth is the number of bits of information in each sample, and it directly corresponds to the resolution of each sample. Bit depth is only meaningful in reference to a PCM digital signal. Non-PCM formats, such as lossy compression formats, do not have associated bit depths."
+msgstr ""
+"位元深度是每個樣本中的資訊位元數，直接對應每個樣本的解析度。位元深度僅對 PCM "
+"數位訊號有意義。非 PCM 格式 (例如失真壓縮格式) 沒有相關聯的位元深度。"
+
+msgid "First pass command"
+msgstr "第一階段指令"
+
+msgid "Second pass command"
+msgstr "第二階段指令"
+
+msgid "Videomass - RAW Commands"
+msgstr "Videomass - RAW 指令"
+
+msgid "Read me"
+msgstr "讀我"
+
+msgid ""
+"The RAW commands reflect the user settings made on\n"
+"AV-Conversions interface and apply only to the individual\n"
+"selected file.\n"
+"\n"
+"Please note that using EBU R128 (High-Quality), any <?>\n"
+"markers highlighted in red should be replaced with the\n"
+"values given by the output of the first command."
+msgstr ""
+"RAW 指令反映使用者在\n"
+"[影音轉換] 介面上所做的設定，且僅套用於個別\n"
+"選取的檔案。\n"
+"\n"
+"請注意，使用 EBU R128 (高品質) 時，任何以紅色標示的 <?>\n"
+"標記都應替換為\n"
+"第一階段指令輸出所提供的數值。"
+
+msgid "When finished, once the operations have been completed successfully:"
+msgstr "當操作成功完成後："
+
+msgid "Trash the source files"
+msgstr "將來源檔案移至垃圾桶"
+
+msgid "Clear the File List"
+msgstr "清除檔案清單"
+
+msgid "Run"
+msgstr "執行"
+
+msgid "Videomass - Batch Mode"
+msgstr "Videomass - 批次模式"
+
+msgid "FFmpeg encoders"
+msgstr "FFmpeg 編碼器"
+
+msgid "supported encoders"
+msgstr "支援的編碼器"
+
+msgid "FFmpeg decoders"
+msgstr "FFmpeg 解碼器"
+
+msgid "supported decoders"
+msgstr "支援的解碼器"
+
+msgid "Video"
+msgstr "視訊"
+
+msgid "Audio"
+msgstr "音訊"
+
+msgid "Subtitle"
+msgstr "字幕"
+
+msgid "description"
+msgstr "描述"
+
+msgid "Informations"
+msgstr "資訊"
+
+msgid "Flags settings"
+msgstr "旗標設定"
+
+msgid "Flags enabled"
+msgstr "已啟用旗標"
+
+msgid "Flags disabled"
+msgstr "已停用旗標"
+
+msgid "FFmpeg configuration"
+msgstr "FFmpeg 設定"
+
+msgid "flags"
+msgstr "旗標"
+
+msgid "options"
+msgstr "選項"
+
+msgid "status"
+msgstr "狀態"
+
+msgid "FFprobe   ...not found !"
+msgstr "找不到 FFprobe！"
+
+msgid "FFplay   ...not found !"
+msgstr "找不到 FFplay！"
+
+msgid "Enabled"
+msgstr "已啟用"
+
+msgid "Disabled"
+msgstr "已停用"
+
+msgid "Demuxing only"
+msgstr "僅解多工 (Demuxing)"
+
+msgid "Muxing only"
+msgstr "僅多工 (Muxing)"
+
+msgid "Demuxing/Muxing support"
+msgstr "解多工/多工支援"
+
+msgid "FFmpeg file formats"
+msgstr "FFmpeg 檔案格式"
+
+msgid "supported formats"
+msgstr "支援的格式"
+
+msgid ""
+"Contextual help based on the argument entered in the additional text field.\n"
+"Each argument consists of the type and a type-specific name.\n"
+"\n"
+"For the list of encoders click the \"Encoders\" button.\n"
+"For the list of decoders click on the \"Decoders\" button.\n"
+"For the muxers and demuxers click on the \"Muxers and Demuxers\" button.\n"
+"For the filters, select \"Show available filters\" in the drop down menu.\n"
+"For the bsf, select \"Show available bitstream filters\" in the drop down menu.\n"
+"For the protocols, select \"Show available protocols\" in the drop down menu.\n"
+"\n"
+"Some examples:"
+msgstr ""
+"依據在附加文字欄位中輸入的引數提供關聯式說明。\n"
+"每個引數包含類型與類型特定的名稱。\n"
+"\n"
+"若要查看編碼器清單，請按一下 [編碼器] 按鈕。\n"
+"若要查看解碼器清單，請按一下 [解碼器] 按鈕。\n"
+"若要查看多工器與解多工器，請按一下 [多工器與解多工器] 按鈕。\n"
+"若要查看過濾器，請在下拉式選單中選取 [顯示可用的過濾器]。\n"
+"若要查看 bsf，請在下拉式選單中選取 [顯示可用的位元串流過濾器]。\n"
+"若要查看通訊協定，請在下拉式選單中選取 [顯示可用的通訊協定]。\n"
+"\n"
+"部分範例："
+
+msgid "Help topic"
+msgstr "說明主題"
+
+msgid "List basic options"
+msgstr "列出基本選項"
+
+msgid "List more options"
+msgstr "列出更多選項"
+
+msgid "List all options (very long)"
+msgstr "列出所有選項 (非常長)"
+
+msgid "Show available devices"
+msgstr "顯示可用的裝置"
+
+msgid "Show available bit stream filters"
+msgstr "顯示可用的位元串流過濾器"
+
+msgid "Show available protocols"
+msgstr "顯示可用的通訊協定"
+
+msgid "Show available filters"
+msgstr "顯示可用的過濾器"
+
+msgid "Show available pixel formats"
+msgstr "顯示可用的像素格式"
+
+msgid "Show available audio sample formats"
+msgstr "顯示可用的音訊取樣格式"
+
+msgid "Show available color names"
+msgstr "顯示可用的顏色名稱"
+
+msgid "List sources of the input device"
+msgstr "列出輸入裝置的來源"
+
+msgid "List sinks of the output device"
+msgstr "列出輸出裝置的接收端"
+
+msgid "Show available HW acceleration methods"
+msgstr "顯示可用的硬體加速方法"
+
+msgid "Show license"
+msgstr "顯示授權"
+
+msgid "Show configuration"
+msgstr "顯示設定"
+
+msgid "Encoders"
+msgstr "編碼器"
+
+msgid "Decoders"
+msgstr "解碼器"
+
+msgid "Muxers and Demuxers"
+msgstr "多工器與解多工器"
+
+msgid "help topic list"
+msgstr "說明主題清單"
+
+msgid "Type the argument here and confirm with the enter key on your keyboard"
+msgstr "請在此輸入引數，並按鍵盤上的 Enter 鍵確認"
+
+msgid "The search function allows you to find entries in the current topic"
+msgstr "搜尋功能可讓您在目前的主題中尋找項目"
+
+msgid "Ignore case"
+msgstr "忽略大小寫"
+
+msgid "Ignore case distinctions: characters with different case will match."
+msgstr "忽略大小寫區別：不同大小寫的字元也會視為符合。"
+
+msgid "FFmpeg help topics"
+msgstr "FFmpeg 說明主題"
+
+msgid ""
+"This is a multifunctional search tool useful for local help searches\n"
+"on multiple FFmpeg topics and options. The search control, to\n"
+"find occurences on text obtained from the chosen argument,\n"
+"is very similar to what grep does on the Unix shell, but here\n"
+"it's done in real time.\n"
+"\n"
+"If you don't find support for a certain codec or other feature,\n"
+"it's likely that your version of FFmpeg is too old or not configured\n"
+"with those features."
+msgstr ""
+"這是一個多功能的搜尋工具，可用於本機搜尋\n"
+"多個 FFmpeg 主題與選項。搜尋控制項會在\n"
+"所選引數取得的文字中尋找出現次數，\n"
+"這與 Unix Shell 上的 grep 非常相似，但此處\n"
+"是即時執行的。\n"
+"\n"
+"如果您找不到特定編解碼器或其他功能的支援，\n"
+"可能是您的 FFmpeg 版本太舊，或未設定\n"
+"這些功能。"
+
+msgid ""
+"\n"
+"  ..Nothing available"
+msgstr ""
+"\n"
+"  ..沒有可用的資料"
+
+msgid ""
+"\n"
+"  ..Not found"
+msgstr ""
+"\n"
+"  ..找不到"
+
+msgid "Before"
+msgstr "之前"
+
+msgid "After"
+msgstr "之後"
+
+msgid "Search for a specific frame"
+msgstr "搜尋特定畫格"
+
+msgid "Load"
+msgstr "載入"
+
+msgid "Color EQ"
+msgstr "色彩 EQ"
+
+msgid "Contrast:"
+msgstr "對比度："
+
+msgid "-100 to +100, default value 0"
+msgstr "-100 到 +100，預設值為 0"
+
+msgid "Brightness:"
+msgstr "亮度："
+
+msgid "Saturation:"
+msgstr "飽和度："
+
+msgid "0 to 300, default value 100"
+msgstr "0 到 300，預設值為 100"
+
+msgid "Gamma:"
+msgstr "Gamma:"
+
+msgid "0 to 100, default value 10"
+msgstr "0 到 100，預設值為 10"
+
+msgid "Reset"
+msgstr "重設"
+
+msgid "Color Correction EQ Tool"
+msgstr "色彩校正 EQ 工具"
+
+msgid "Videomass - Error!"
+msgstr "Videomass - 錯誤！"
+
+#, python-brace-format
+msgid "Source size: {0} x {1} pixels"
+msgstr "來源大小：{0} x {1} 像素"
+
+msgid "Crop color"
+msgstr "裁切顏色"
+
+msgid "Cropping area selection "
+msgstr "裁切區域選取 "
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Center"
+msgstr "置中"
+
+msgid "Width"
+msgstr "寬度"
+
+msgid "Crop Tool"
+msgstr "裁切工具"
+
+msgid "Choose the color to draw the cropping area"
+msgstr "請選擇繪製裁切區域的顏色"
+
+msgid "Crop to width"
+msgstr "裁切至寬度"
+
+msgid "Move vertically (set to -1 to center the vertical axis)"
+msgstr "垂直移動 (設為 -1 以將垂直軸置中)"
+
+msgid "Move horizontally (set to -1 to center the horizontal axis)"
+msgstr "水平移動 (設為 -1 以將水平軸置中)"
+
+msgid "Crop to height"
+msgstr "裁切至高度"
+
+msgid "Advanced Options"
+msgstr "進階選項"
+
+msgid "Deinterlace"
+msgstr "去交錯"
+
+msgid "Interlace"
+msgstr "交錯"
+
+msgid "Deinterlaces with w3fdif filter"
+msgstr "使用 w3fdif 過濾器去交錯"
+
+msgid "Deinterlaces with yadif filter"
+msgstr "使用 yadif 過濾器去交錯"
+
+msgid "Interlaces with interlace filter"
+msgstr "使用 interlace 過濾器交錯"
+
+msgid "Deinterlacing and Interlacing"
+msgstr "去交錯與交錯"
+
+msgid "Deinterlace the input video with `w3fdif` filter"
+msgstr "使用 `w3fdif` 過濾器對輸入視訊去交錯"
+
+msgid "Set the interlacing filter coefficients."
+msgstr "設定交錯過濾器係數。"
+
+msgid "Specify which frames to deinterlace."
+msgstr "指定要進行去交錯的畫格。"
+
+msgid "Deinterlace the input video with `yadif` filter. Using FFmpeg, this is the best and fastest choice"
+msgstr ""
+"使用 `yadif` 過濾器對輸入視訊去交錯。在使用 FFmpeg 時，這是最佳且最快的選擇"
+
+msgid ""
+"mode\n"
+"The interlacing mode to adopt."
+msgstr ""
+"模式\n"
+"要採用的交錯模式。"
+
+msgid ""
+"parity\n"
+"The picture field parity assumed for the input interlaced video."
+msgstr ""
+"同位\n"
+"輸入交錯視訊所假設的圖片場同位。"
+
+msgid "Simple interlacing filter from progressive contents."
+msgstr "來自漸進式內容的簡易交錯過濾器。"
+
+msgid ""
+"scan:\n"
+"determines whether the interlaced frame is taken from the even (tff - default) or odd (bff) lines of the progressive frame."
+msgstr ""
+"掃描：\n"
+"決定交錯畫格是取自漸進式畫格的偶數 (tff - 預設) 還是奇數 (bff) 行。"
+
+msgid ""
+"lowpass:\n"
+"Enable (default) or disable the vertical lowpass filter to avoid twitter interlacing and reduce moire patterns.\n"
+"Default is no setting."
+msgstr ""
+"低通：\n"
+"啟用 (預設) 或停用垂直低通過濾器，以避免閃爍交錯並減少摩爾紋。\n"
+"預設為無設定。"
+
+msgid "Denoiser Filters"
+msgstr "降噪過濾器"
+
+msgid "Enable nlmeans denoiser"
+msgstr "啟用 nlmeans 降噪器"
+
+msgid "nlmeans options"
+msgstr "nlmeans 選項"
+
+msgid "Enable hqdn3d denoiser"
+msgstr "啟用 hqdn3d 降噪器"
+
+msgid "hqdn3d options"
+msgstr "hqdn3d 選項"
+
+msgid "Denoiser Tool"
+msgstr "降噪工具"
+
+msgid ""
+"nlmeans:\n"
+"Denoise frames using Non-Local Means algorithm is capable of restoring video sequences, even with strong noise. It is ideal for enhancing the quality of old VHS tapes."
+msgstr ""
+"nlmeans:\n"
+"使用非局部均值 (Non-Local Means) 演算法對畫格進行降噪，即使有強烈雜訊也能還原"
+"視訊序列。這非常適合用於增強舊 VHS 錄影帶的品質。"
+
+msgid ""
+"hqdn3d:\n"
+"This is a high precision/quality 3d denoise filter. It aims to reduce image noise, producing smooth images and making still images really still. It should enhance compressibility."
+msgstr ""
+"hqdn3d:\n"
+"這是高精確度/高品質的 3D 降噪過濾器。其目標是減少影像雜訊，產生平滑的影像，並"
+"讓靜止影像更加穩定。這應能增強壓縮率。"
+
+msgid "View result"
+msgstr "檢視結果"
+
+msgid "New size in pixels"
+msgstr "新大小 (像素)"
+
+msgid "Width:"
+msgstr "寬度："
+
+msgid "Height:"
+msgstr "高度："
+
+msgid "Constrain proportions (keep aspect ratio)"
+msgstr "限制比例 (保持長寬比)"
+
+msgid "Which dimension to adjust?"
+msgstr "要調整哪個維度？"
+
+msgid "Aspect Ratio"
+msgstr "長寬比"
+
+msgid "Setdar filter (display aspect ratio) example 16/9, 4/3 "
+msgstr "Setdar 過濾器 (顯示長寬比) 範例 16/9, 4/3 "
+
+msgid "Numerator"
+msgstr "分子"
+
+msgid "Denominator"
+msgstr "分母"
+
+msgid "Setsar filter (sample aspect ratio) example 1/1"
+msgstr "Setsar 過濾器 (取樣長寬比) 範例 1/1"
+
+msgid "Resize Tool"
+msgstr "調整大小工具"
+
+msgid "Scale filter, set to 0 to disable"
+msgstr "縮放過濾器，設為 0 以停用"
+
+msgid "Display Aspect Ratio. Set to 0 to disable"
+msgstr "顯示長寬比。設為 0 以停用"
+
+msgid ""
+"Sample (aka Pixel) Aspect Ratio.\n"
+"Set to 0 to disable"
+msgstr ""
+"取樣 (即像素) 長寬比。\n"
+"設為 0 以停用"
+
+msgid ""
+"If you want to keep the aspect ratio, select \"Constrain proportions\" below and\n"
+"specify only one dimension, either width or height, and set the other dimension\n"
+"to -1 or -2 (some codecs require -2, so you should do some testing first)."
+msgstr ""
+"如果您想保持長寬比，請選取下方的「限制比例」，並\n"
+"僅指定寬度或高度其中一個維度，然後將另一個維度設定\n"
+"為 -1 或 -2 (某些編解碼器需要 -2，因此您應先進行測試)。"
+
+msgid "Enable stabilizer"
+msgstr "啟用穩定器"
+
+msgid "Create a side-by-side comparison video"
+msgstr "建立並排比較視訊"
+
+msgid "Create a snapshot"
+msgstr "建立快照"
+
+msgid "Preview"
+msgstr "預覽"
+
+msgid "Duration seconds:"
+msgstr "持續時間 (秒)："
+
+msgid "Video Detect"
+msgstr "視訊偵測"
+
+msgid "[TRIPOD] Enable tripod mode if checked"
+msgstr "[TRIPOD] 若勾選則啟用腳架模式"
+
+msgid "Video transform"
+msgstr "視訊轉換"
+
+msgid "[OPTALGO] optimization algorithm"
+msgstr "[OPTALGO] 最佳化演算法"
+
+msgid "[CROP] Specify how to deal with borders at movement compensation"
+msgstr "[CROP] 指定移動補償時如何處理邊框"
+
+msgid "[INVERT] Invert transforms if checked"
+msgstr "[INVERT] 若勾選則反轉轉換"
+
+msgid "[RELATIVE] Consider transforms as relative to previous frame if checked, absolute if unchecked"
+msgstr "[RELATIVE] 若勾選，則將轉換視為相對於前一個畫格；若取消勾選，則視為絕對轉換"
+
+msgid "Specify type of interpolation"
+msgstr "指定插補類型"
+
+msgid "[TRIPOD2] virtual tripod mode, equivalent to relative=unchecked:smoothing=0"
+msgstr "[TRIPOD2] 虛擬腳架模式，等同於 relative=unchecked:smoothing=0"
+
+msgid "Unsharp filter:"
+msgstr "反銳化遮罩過濾器："
+
+msgid "Seek to a position on the video."
+msgstr "搜尋視訊上的位置。"
+
+msgid "Make a snapshot of the video with the settings made."
+msgstr "使用所做的設定建立視訊快照。"
+
+msgid "Set the snapshot duration from 3 to 15 seconds from the seek position, default is 5 seconds."
+msgstr "設定快照持續時間，從搜尋位置開始 3 到 15 秒，預設為 5 秒。"
+
+msgid "Set how shaky the video is and how quick the camera is. A value of 1 means little shakiness, a value of 10 means strong shakiness. Default value is 5."
+msgstr ""
+"設定視訊的晃動程度與攝影機的速度。數值 1 表示輕微晃動，數值 10 表示強烈晃動。"
+"預設值為 5。"
+
+msgid "Set the accuracy of the detection process. A value of 1 means low accuracy, a value of 15 means high accuracy. Default value is 15."
+msgstr ""
+"設定偵測過程的準確度。數值 1 表示低準確度，數值 15 表示高準確度。預設值為 "
+"15。"
+
+msgid "Set stepsize of the search process. The region around minimum is scanned with 1 pixel resolution. Default value is 6."
+msgstr ""
+"設定搜尋過程的步長。最小值周圍的區域會以 1 像素解析度進行掃描。預設值為 6。"
+
+msgid "Set minimum contrast. Below this value a local measurement field is discarded. The range is 0-1. Default value is 0.25."
+msgstr ""
+"設定最小對比度。低於此數值時，將捨棄局部測量場。範圍為 0-1。預設值為 0.25。"
+
+msgid "Set reference frame number for tripod mode. If enabled, the motion of the frames is compared to a reference frame in the filtered stream, identified by the specified number. The idea is to compensate all movements in a more-or-less static scene and keep the camera view absolutely still. The frames are counted starting from 1."
+msgstr ""
+"設定腳架模式的參考畫格編號。若啟用，畫格的動作將會與過濾串流中的參考畫格進行"
+"比較 (由指定編號識別)。其概念是補償或多或少靜態場景中的所有移動，並讓攝影機視"
+"野保持絕對靜止。畫格從 1 開始計數。"
+
+msgid ""
+"Set the number of frames (value*2 + 1) used for lowpass filtering the camera movements. Default value is 15. For example a number of 10 means that 21 frames are used (10 in the past and 10 in the future) to smoothen the motion in the video. A larger value leads to a smoother video, but limits the acceleration of the camera (pan/tilt movements). 0 is a special case where a static camera is "
+"simulated."
+msgstr ""
+"設定用於攝影機移動低通過濾的畫格數 (數值*2 + 1)。預設值為 15。例如，數值 10 "
+"表示使用 21 個畫格 (過去 10 個與未來 10 個) 來平滑視訊中的動作。較大的數值會"
+"產生較平滑的視訊，但會限制攝影機的加速度 (平移/傾斜移動)。0 是模擬靜態攝影機"
+"的特殊情況。"
+
+msgid "Set the camera path optimization algorithm. Values are: `gauss`: gaussian kernel low-pass filter on camera motion (default), and `avg`: averaging on transformations"
+msgstr ""
+"設定攝影機路徑最佳化演算法。數值為：`gauss`：攝影機動作的高斯核心低通過濾器 "
+"(預設)，以及 `avg`：轉換的平均值"
+
+msgid "Set maximal angle in radians (degree*PI/180) to rotate frames. Default value is -1, meaning no limit."
+msgstr ""
+"設定旋轉畫格的最大角度 (以弧度為單位，度數*PI/180)。預設值為 -1，表示無限制。"
+
+msgid "Specify how to deal with borders that may be visible due to movement compensation. Values are: `keep` keep image information from previous frame (default), `black` fill the border black"
+msgstr ""
+"指定如何處理因移動補償而可能顯示的邊框。數值為：`keep` 保留前一個畫格的影像資"
+"訊 (預設)，`black` 將邊框填滿黑色"
+
+msgid "Invert transforms if checked. Default is unchecked."
+msgstr "若勾選則反轉轉換。預設為取消勾選。"
+
+msgid "Consider transforms as relative to previous frame if checked, absolute if unchecked. Default is checked."
+msgstr "若勾選，則將轉換視為相對於前一個畫格；若取消勾選，則視為絕對轉換。預設為勾選。"
+
+msgid "Set percentage to zoom. A positive value will result in a zoom-in effect, a negative value in a zoom-out effect. Default value is 0 (no zoom)."
+msgstr "設定縮放百分比。正值會產生放大效果，負值會產生縮小效果。預設值為 0 (不縮放)。"
+
+msgid "Set optimal zooming to avoid borders. Accepted values are: `0` disabled, `1` optimal static zoom value is determined (only very strong movements will lead to visible borders) (default), `2` optimal adaptive zoom value is determined (no borders will be visible), see zoomspeed. Note that the value given at zoom is added to the one calculated here."
+msgstr ""
+"設定最佳縮放以避免邊框。接受的數值為：`0` 停用，`1` 決定最佳靜態縮放值 (只有"
+"非常強烈的移動才會導致可見邊框) (預設)，`2` 決定最佳適應性縮放值 (不會有可見"
+"邊框)，請參閱 zoomspeed。請注意，在 zoom 給定的數值會加到此處計算的數值上。"
+
+msgid "Set percent to zoom maximally each frame (enabled when optzoom is set to 2). Range is from 0 to 5, default value is 0.25."
+msgstr ""
+"設定每個畫格的最大縮放百分比 (當 optzoom 設為 2 時啟用)。範圍從 0 到 5，預設值為 0.25。"
+
+msgid "Specify type of interpolation. Available values are: `no` no interpolation, `linear` linear only horizontal, `bilinear` linear in both directions (default), `bicubic` cubic in both directions (slow)"
+msgstr ""
+"指定插補類型。可用的數值為：`no` 不插補，`linear` 僅水平線性，`bilinear` 雙向"
+"線性 (預設)，`bicubic` 雙向三次 (慢)"
+
+msgid "Enable virtual tripod mode if checked, which is equivalent to relative=0:smoothing=0. Default is unchecked. Use also tripod option of vidstabdetect."
+msgstr ""
+"若勾選則啟用虛擬腳架模式，等同於 relative=0:smoothing=0。預設為取消勾選。亦請"
+"使用 vidstabdetect 的 tripod 選項。"
+
+msgid "Sharpen or blur the input video. Note the use of the unsharp filter which is always recommended."
+msgstr "銳化或模糊輸入視訊。請注意，總是建議使用反銳化遮罩過濾器。"
+
+msgid "Video Stabilizer Tool"
+msgstr "視訊穩定器工具"
+
+msgid "Videomass - Loading..."
+msgstr "Videomass - 正在載入..."
+
+msgid ""
+"Please wait,\n"
+"This process will take a few seconds."
+msgstr ""
+"請稍候，\n"
+"此程序將花費幾秒鐘。"
+
+msgid "Default position"
+msgstr "預設位置"
+
+msgid "Rotation setting"
+msgstr "旋轉設定"
+
+msgid "90° (left)"
+msgstr "90° (向左)"
+
+msgid "90° (right)"
+msgstr "90° (向右)"
+
+msgid "180°"
+msgstr "180°"
+
+msgid "Transpose Tool"
+msgstr "轉置工具"
+
+msgid "Rotate 90 degrees right"
+msgstr "向右旋轉 90 度"
+
+msgid "Rotate 180 degrees"
+msgstr "旋轉 180 度"
+
+msgid "Rotate 90 degrees left"
+msgstr "向左旋轉 90 度"
+
+msgid "Format"
+msgstr "格式"
+
+msgid "Video Stream"
+msgstr "視訊串流"
+
+msgid "Audio Streams"
+msgstr "音訊串流"
+
+msgid "Subtitle Streams"
+msgstr "字幕串流"
+
+msgid "Copy to clipboard"
+msgstr "複製到剪貼簿"
+
+msgid "FILE SELECTION"
+msgstr "檔案選取"
+
+msgid "Properties"
+msgstr "屬性"
+
+msgid "Values"
+msgstr "數值"
+
+msgid "Source Stream Properties"
+msgstr "來源串流屬性"
+
+msgid "Unable to open the clipboard on Format tab"
+msgstr "無法在 [格式] 分頁開啟剪貼簿"
+
+msgid "Unable to open the clipboard on Video Streams tab"
+msgstr "無法在 [視訊串流] 分頁開啟剪貼簿"
+
+msgid "Unable to open the clipboard on Audio Streams tab"
+msgstr "無法在 [音訊串流] 分頁開啟剪貼簿"
+
+msgid "Unable to open the clipboard on Subtitle Streams tab"
+msgstr "無法在 [字幕串流] 分頁開啟剪貼簿"
+
+msgid "Where do you prefer to save your transcodes?"
+msgstr "您希望將轉碼檔案儲存到哪裡？"
+
+msgid "Change"
+msgstr "變更"
+
+msgid "Same destination paths as source files"
+msgstr "與來源檔案相同的目的地路徑"
+
+msgid "Assign optional suffix to destination file names:"
+msgstr "指派選用的後綴到目的地檔案名稱："
+
+msgid "File removal preferences"
+msgstr "檔案移除偏好設定"
+
+msgid "Trash the source files after successful encoding"
+msgstr "編碼成功後將來源檔案移至垃圾桶"
+
+msgid "File Preferences"
+msgstr "檔案偏好設定"
+
+msgid "Location of executables"
+msgstr "執行檔位置"
+
+msgid ""
+"FFmpeg can be built by enabling/disabling its options and this depends on your needs.\n"
+"For some use cases it is possible to provide a custom build of FFmpeg where you can specify\n"
+"it in this preferences tab."
+msgstr ""
+"FFmpeg 可透過啟用/停用其選項來建置，這取決於您的需求。\n"
+"在某些使用案例中，可能需要提供自訂建置的 FFmpeg，您可以在\n"
+"此偏好設定分頁中指定它。"
+
+msgid "Enable a custom location to run FFmpeg"
+msgstr "啟用自訂位置以執行 FFmpeg"
+
+msgid "Enable a custom location to run FFprobe"
+msgstr "啟用自訂位置以執行 FFprobe"
+
+msgid "Enable a custom location to run FFplay"
+msgstr "啟用自訂位置以執行 FFplay"
+
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgid "Look and Feel (requires application restart)"
+msgstr "外觀與風格 (需要重新啟動應用程式)"
+
+msgid "Icon themes"
+msgstr "圖示主題"
+
+msgid "At the top of window (default)"
+msgstr "在視窗頂端 (預設)"
+
+msgid "At the bottom of window"
+msgstr "在視窗底部"
+
+msgid "At the right of window"
+msgstr "在視窗右側"
+
+msgid "At the left of window"
+msgstr "在視窗左側"
+
+msgid "Place the toolbar"
+msgstr "工具列位置"
+
+msgid "Toolbar's icons size:"
+msgstr "工具列圖示大小："
+
+msgid "Application Language (requires application restart)"
+msgstr "應用程式語言 (需要重新啟動應用程式)"
+
+msgid "Look and Language"
+msgstr "外觀與語言"
+
+msgid "Upon exiting the application"
+msgstr "退出應用程式時"
+
+msgid "Always ask me to confirm"
+msgstr "總是詢問我以確認"
+
+msgid "Clean the log files"
+msgstr "清除記錄檔"
+
+msgid "Remove cached files"
+msgstr "移除快取檔案"
+
+msgid "On operations completion"
+msgstr "操作完成時"
+
+msgid "These settings will remain active until the application is closed, If necessary, remember to reactivate them."
+msgstr "這些設定將保持啟用直到應用程式關閉，如有必要，請記得重新啟用它們。"
+
+msgid "Exit the application"
+msgstr "退出應用程式"
+
+msgid "Shutdown the system"
+msgstr "關閉系統"
+
+msgid "SUDO password:"
+msgstr "SUDO 密碼："
+
+msgid "Exit and Shutdown"
+msgstr "退出並關機"
+
+msgid "Specify the character encoding format"
+msgstr "指定字元編碼格式"
+
+msgid ""
+"Although UTF-8 is the default and most widely used standard encoding format, it is not the only encoding format available.\n"
+"Some file metadata may still contain non-UTF-8 character encodings resulting in the error \"'utf-8' codec can't decode bytes...\".\n"
+"If you know the encoding format the file was written in, you can try specifying it here, e.g. ISO 8859-1, ISO 8859-16, etc."
+msgstr ""
+"雖然 UTF-8 是預設且最廣泛使用的標準編碼格式，但它並非唯一可用的編碼格式。\n"
+"某些檔案中繼資料可能仍包含非 UTF-8 字元編碼，導致錯誤「'utf-8' codec can't "
+"decode bytes...」。\n"
+"如果您知道檔案寫入時的編碼格式，可以嘗試在此指定，例如 ISO 8859-1、ISO "
+"8859-16 等。"
+
+msgid "Character encoding:"
+msgstr "字元編碼："
+
+msgid "Default application directories"
+msgstr "預設應用程式目錄"
+
+msgid "Configuration directory"
+msgstr "設定目錄"
+
+msgid "Cache directory"
+msgstr "快取目錄"
+
+msgid "Log directory"
+msgstr "記錄目錄"
+
+msgid "Advanced"
+msgstr "進階"
+
+msgid ""
+"The following settings affect output messages and the log messages during transcoding processes.\n"
+"Be careful, by changing these settings some functions of the application may not work correctly,\n"
+"change only if you know what you are doing.\n"
+msgstr ""
+"以下設定會影響轉碼過程中的輸出訊息與記錄訊息。\n"
+"請小心，變更這些設定可能會導致應用程式的某些功能無法正常運作，\n"
+"除非您知道自己在做什麼，否則請勿變更。\n"
+
+msgid "Set logging level flags used by FFmpeg"
+msgstr "設定 FFmpeg 使用的記錄層級旗標"
+
+msgid "Set logging level flags used by FFplay"
+msgstr "設定 FFplay 使用的記錄層級旗標"
+
+msgid "FFmpeg logging levels"
+msgstr "FFmpeg 記錄層級"
+
+msgid "By assigning an additional suffix you could avoid overwriting files"
+msgstr "透過指派額外的後綴，您可以避免覆寫檔案"
+
+msgid "Type sudo password here, only for Unix-like operating systems, not for MS Windows"
+msgstr "請在此輸入 sudo 密碼，僅適用於 Unix-like 作業系統，不適用於 MS Windows"
+
+msgid "Preferences"
+msgstr "偏好設定"
+
+msgid "Choose Destination"
+msgstr "選擇目的地"
+
+msgid "Enter only alphanumeric characters. You can also use the hyphen (\"-\") and the underscore (\"_\"). Spaces are not allowed."
+msgstr ""
+"請僅輸入英數字元。您也可以使用連字號 (\"-\") 與底線 (\"_\")。不允許使用空格。"
+
+msgid "Videomass - Warning!"
+msgstr "Videomass - 警告！"
+
+#, python-brace-format
+msgid "{} location"
+msgstr "{} 位置"
+
+msgid "One-Pass, Do not start with `ffmpeg -i filename`; do not end with `output-filename`"
+msgstr ""
+"單次行程 (One-Pass)，請勿以 `ffmpeg -i filename` 開頭；請勿以 `output-"
+"filename` 結尾"
+
+msgid "Two-Pass (optional), Do not start with `ffmpeg -i filename`; do not end with `output-filename`"
+msgstr ""
+"二次行程 (Two-Pass) (選用)，請勿以 `ffmpeg -i filename` 開頭；請勿以 `output-"
+"filename` 結尾"
+
+msgid "Videomass - Edit the selected item in the queue"
+msgstr "Videomass - 編輯佇列中選取的項目"
+
+msgid "Pre-input arguments for One-Pass (optional)"
+msgstr "單次行程的預輸入引數 (選用)"
+
+msgid "FFmpeg arguments for one-pass encoding"
+msgstr "單次行程編碼的 FFmpeg 引數"
+
+msgid "Any optional arguments to add before input file on the one-pass encoding, e.g required names of some hardware accelerations like -hwaccel to use with CUDA."
+msgstr "在單次行程編碼的輸入檔案前加入任何選用引數，例如使用 CUDA 時所需的一些硬體加速名稱，如 -hwaccel。"
+
+msgid "Pre-input arguments for Two-Pass (optional)"
+msgstr "二次行程的預輸入引數 (選用)"
+
+msgid "FFmpeg arguments for two-pass encoding"
+msgstr "二次行程編碼的 FFmpeg 引數"
+
+msgid "Any optional arguments to add before input file on the two-pass encoding, e.g required names of some hardware accelerations like -hwaccel to use with CUDA."
+msgstr ""
+"在二次行程編碼的輸入檔案前加入任何選用引數，例如使用 CUDA 時所需的一些硬體加"
+"速名稱，如 -hwaccel。"
+
+msgid "Edit"
+msgstr "編輯"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove all"
+msgstr "全部移除"
+
+msgid ""
+"Export\n"
+"queue file"
+msgstr ""
+"匯出\n"
+"佇列檔案"
+
+msgid ""
+"Import\n"
+"queue file"
+msgstr ""
+"匯入\n"
+"佇列檔案"
+
+msgid "Destination file name"
+msgstr "目的地檔案名稱"
+
+msgid "Remove all items in the queue"
+msgstr "移除佇列中的所有項目"
+
+msgid "Videomass - Queue"
+msgstr "Videomass - 佇列"
+
+msgid "Export queue file"
+msgstr "匯出佇列檔案"
+
+msgid "Same as source"
+msgstr "與來源相同"
+
+msgid ""
+"Source\n"
+"File destination\n"
+"Automation/Preset\n"
+"Encoding passes\n"
+"Output Format\n"
+"Start of segment\n"
+"Clip duration"
+msgstr ""
+"來源\n"
+"檔案目的地\n"
+"自動化/預設設定\n"
+"編碼行程\n"
+"輸出格式\n"
+"片段開始\n"
+"剪輯持續時間"
+
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "# 將會被替換為遞增數字，起始於："
+
+msgid "Font Color"
+msgstr "字型顏色"
+
+msgid "Shadow Color"
+msgstr "陰影顏色"
+
+msgid "Show text box"
+msgstr "顯示文字方塊"
+
+msgid "Box Color"
+msgstr "方塊顏色"
+
+msgid "Timestamp settings"
+msgstr "時間戳記設定"
+
+msgid "Supported Formats list (optional). Do not include the `.`"
+msgstr "支援的格式清單 (選用)。請勿包含 `.`"
+
+msgid "Output Format. Empty to copy format and codec. Do not include the `.`"
+msgstr "輸出格式。留空以複製格式與編解碼器。請勿包含 `.`"
+
+msgid "Profile Name"
+msgstr "設定檔名稱"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "A short profile name"
+msgstr "簡短的設定檔名稱"
+
+msgid "A long description of the profile"
+msgstr "設定檔的詳細描述"
+
+msgid "One or more comma-separated format names compatible with this profile"
+msgstr "一個或多個與此設定檔相容的格式名稱 (以逗號分隔)"
+
+msgid "Output format extension. Leave empty to copy codec and format"
+msgstr "輸出格式副檔名。留空以複製編解碼器與格式"
+
+msgid "Incomplete profile assignments"
+msgstr "不完整的設定檔指派"
+
+msgid "Formats must be comma-separated"
+msgstr "格式必須以逗號分隔"
+
+#, python-brace-format
+msgid ""
+"ERROR: Keys mismatched for requested data.\n"
+"Invalid file: «{0}»"
+msgstr ""
+"錯誤：請求資料的鍵值不符。\n"
+"無效檔案：«{0}»"
+
+msgid "Profile already stored with same name"
+msgstr "已儲存相同名稱的設定檔"
+
+msgid "Profile stored successfully!"
+msgstr "設定檔儲存成功！"
+
+msgid "Profile change successful!"
+msgstr "設定檔變更成功！"
+
+msgid "Log file list"
+msgstr "記錄檔清單"
+
+msgid "Log messages"
+msgstr "記錄訊息"
+
+msgid "Refresh log messages"
+msgstr "重新整理記錄訊息"
+
+msgid "Clear log messages"
+msgstr "清除記錄訊息"
+
+msgid "Select a log file"
+msgstr "選取記錄檔"
+
+msgid "Are you sure you want to clear the selected log file?"
+msgstr "您確定要清除選取的記錄檔嗎？"
+
+msgid "Please confirm"
+msgstr "請確認"
+
+msgid "File name"
+msgstr "檔案名稱"
+
+msgid "Max volume dBFS"
+msgstr "最大音量 dBFS"
+
+msgid "Mean volume dBFS"
+msgstr "平均音量 dBFS"
+
+msgid "Offset dBFS"
+msgstr "偏移 dBFS"
+
+msgid "Result dBFS"
+msgstr "結果 dBFS"
+
+msgid "Post-normalization references:"
+msgstr "正規化後參考："
+
+msgid "=  Clipped peaks"
+msgstr "=  截斷峰值"
+
+msgid "=  No changes"
+msgstr "=  無變更"
+
+msgid "=  Below max peak"
+msgstr "=  低於最大峰值"
+
+msgid "RMS-based volume statistics"
+msgstr "基於 RMS 的音量統計"
+
+msgid "PEAK-based volume statistics"
+msgstr "基於 PEAK 的音量統計"
+
+msgid ""
+"...It means the resulting audio will be clipped,\n"
+"because its volume is higher than the maximum 0 db\n"
+"level. This results in data loss and the audio may\n"
+"sound distorted."
+msgstr ""
+"...這表示產生的音訊將會被截斷，\n"
+"因為其音量高於最大 0 db\n"
+"等級。這會導致資料遺失，且音訊\n"
+"聽起來可能會失真。"
+
+msgid ""
+"...It means the resulting audio will not change,\n"
+"because it's equal to the source."
+msgstr ""
+"...這表示產生的音訊將不會改變，\n"
+"因為它與來源相同。"
+
+msgid ""
+"...It means an audio signal will be produced with\n"
+"a lower volume than the source."
+msgstr ""
+"...這表示產生的音訊訊號\n"
+"音量將低於來源。"
+
+msgid "Get Latest Version"
+msgstr "取得最新版本"
+
+msgid "Checking for newer version"
+msgstr "正在檢查是否有較新版本"
+
+msgid ""
+"\n"
+"\n"
+"New releases fix bugs and offer new features."
+msgstr ""
+"\n"
+"\n"
+"新版本修正了錯誤並提供新功能。"
+
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"This is Videomass v.{0}\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"這是 Videomass v.{0}\n"
+"\n"
+
+msgid ""
+"q, ESC\n"
+"f\n"
+"p, SPC\n"
+"m\n"
+"9, 0\n"
+"/, *\n"
+"a\n"
+"v\n"
+"t\n"
+"c\n"
+"w\n"
+"s\n"
+"\n"
+"left/right\n"
+"down/up\n"
+"page down/page up\n"
+"\n"
+"right mouse click\n"
+"left mouse double-click"
+msgstr ""
+"q, ESC\n"
+"f\n"
+"p, SPC\n"
+"m\n"
+"9, 0\n"
+"/, *\n"
+"a\n"
+"v\n"
+"t\n"
+"c\n"
+"w\n"
+"s\n"
+"\n"
+"左/右\n"
+"下/上\n"
+"Page Down/Page Up\n"
+"\n"
+"按滑鼠右鍵\n"
+"按兩下滑鼠左鍵"
+
+msgid "Shortcut keys while playing with FFplay"
+msgstr "使用 FFplay 播放時的快速鍵"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Please take a moment to set up the application"
+msgstr "請花一點時間設定應用程式"
+
+msgid "Click the \"Next\" button to get started"
+msgstr "按一下 [下一步] 按鈕以開始"
+
+msgid "Welcome to the Videomass Wizard!"
+msgstr "歡迎使用 Videomass 精靈！"
+
+msgid "Videomass is an application based on FFmpeg\n"
+msgstr "Videomass 是一個基於 FFmpeg 的應用程式\n"
+
+msgid "If FFmpeg is not on your computer, this application will be unusable"
+msgstr "如果您的電腦上沒有 FFmpeg，此應用程式將無法使用"
+
+msgid ""
+"If you have already installed FFmpeg on your operating system,\n"
+"click the \"Auto-detection\" button."
+msgstr ""
+"如果您已經在作業系統上安裝 FFmpeg，\n"
+"請按一下 [自動偵測] 按鈕。"
+
+msgid ""
+"If you want to use a version of FFmpeg located on your filesystem\n"
+"but not installed on your operating system,\n"
+"click the \"Locate\" button."
+msgstr ""
+"如果您想使用位於檔案系統中\n"
+"但未安裝在作業系統上的 FFmpeg 版本，\n"
+"請按一下 [定位] 按鈕。"
+
+msgid "Auto-detection"
+msgstr "自動偵測"
+
+msgid "Locate"
+msgstr "定位"
+
+msgid "Click the \"Next\" button"
+msgstr "按一下 [下一步] 按鈕"
+
+#, python-brace-format
+msgid "'{}' is not installed on your computer. Install it or indicate another location by clicking the 'Locate' button."
+msgstr "您的電腦上未安裝 '{}'。請安裝它，或按一下 [定位] 按鈕指定其他位置。"
+
+msgid ""
+"Videomass already seems to include FFmpeg.\n"
+"\n"
+"Do you want to use that?"
+msgstr ""
+"Videomass 似乎已包含 FFmpeg。\n"
+"\n"
+"您要使用它嗎？"
+
+msgid "Locating FFmpeg executables\n"
+msgstr "正在定位 FFmpeg 執行檔\n"
+
+msgid ""
+"\"ffmpeg\", \"ffprobe\" and \"ffplay\" are required. Complete all\n"
+"the text boxes below by clicking on the respective buttons."
+msgstr ""
+"需要 \"ffmpeg\"、\"ffprobe\" 與 \"ffplay\"。請按一下\n"
+"各自的按鈕以完成下方所有文字方塊。"
+
+msgid "Wizard completed successfully!\n"
+msgstr "精靈已成功完成！\n"
+
+msgid "Remember that you can always change these settings later, through the Preferences dialog."
+msgstr "請記住，您隨時可以稍後透過偏好設定對話方塊變更這些設定。"
+
+msgid "Thank You!"
+msgstr "謝謝您！"
+
+msgid "To exit click the \"Finish\" button"
+msgstr "若要退出，請按一下 [完成] 按鈕"
+
+msgid "< Previous"
+msgstr "< 上一步"
+
+msgid "Next >"
+msgstr "下一步 >"
+
+msgid "Videomass Wizard"
+msgstr "Videomass 精靈"
+
+msgid "Finish"
+msgstr "完成"
+
+#, python-brace-format
+msgid ""
+"Output folder does not exist:\n"
+"\n"
+"\"{}\"\n"
+msgstr ""
+"輸出資料夾不存在：\n"
+"\n"
+"\"{}\"\n"
+
+msgid "Files already exist, do you want to overwrite them?"
+msgstr "檔案已存在，您要覆寫它們嗎？"
+
+msgid "Already exist"
+msgstr "已存在"
+
+msgid "Not found"
+msgstr "找不到"
+
+msgid "Error list"
+msgstr "錯誤清單"
+
+msgid "File(s) not found"
+msgstr "找不到檔案"
+
+#, python-brace-format
+msgid "Please, see «{0}» file for details."
+msgstr "請參閱 «{0}» 檔案以取得詳細資料。"
+
+msgid ""
+"Wait....\n"
+"Audio peak analysis."
+msgstr ""
+"請稍候....\n"
+"音訊峰值分析。"
+
+msgid "Videomass - Downloading..."
+msgstr "Videomass - 正在下載..."
+
+msgid "Ready"
+msgstr "就緒"
+
+msgid ""
+"Not all items in the queue were completed.\n"
+"\n"
+"Would you like to keep them in the queue?"
+msgstr ""
+"佇列中並非所有項目都已完成。\n"
+"\n"
+"您要將它們保留在佇列中嗎？"
+
+#, python-brace-format
+msgid "Queue ({0})"
+msgstr "佇列 ({0})"
+
+msgid "Queue"
+msgstr "佇列"
+
+msgid "There are still active windows with running processes, make sure you finish your work before exit."
+msgstr "仍有包含執行中程序的活動視窗，請確保在退出前完成您的工作。"
+
+msgid "Are you sure you want to exit the application?"
+msgstr "您確定要退出應用程式嗎？"
+
+msgid "Exit"
+msgstr "退出"
+
+msgid "Import files\tCtrl+O"
+msgstr "匯入檔案 (&O)\tCtrl+O"
+
+msgid "Open destination folder of encodings\tCtrl+D"
+msgstr "開啟編碼目的地資料夾 (&D)\tCtrl+D"
+
+msgid "Load queue file"
+msgstr "載入佇列檔案 (&L)"
+
+msgid "Load a previously exported queue file"
+msgstr "載入先前匯出的佇列檔案"
+
+msgid "Open trash"
+msgstr "開啟垃圾桶 (&T)"
+
+msgid "Open the Videomass trash folder"
+msgstr "開啟 Videomass 垃圾桶資料夾"
+
+msgid "Empty trash"
+msgstr "清空垃圾桶 (&E)"
+
+msgid "Delete all files in the Videomass trash folder"
+msgstr "刪除 Videomass 垃圾桶資料夾中的所有檔案"
+
+msgid "Exit\tCtrl+Q"
+msgstr "退出 (&Q)\tCtrl+Q"
+
+msgid "Completely exit the application"
+msgstr "完全退出應用程式"
+
+msgid "File"
+msgstr "檔案 (&F)"
+
+msgid "Rename selected file\tCtrl+R"
+msgstr "重新命名選取的檔案 (&R)\tCtrl+R"
+
+msgid "Rename the destination of the selected file"
+msgstr "重新命名選取檔案的目的地"
+
+msgid "Batch rename files\tCtrl+B"
+msgstr "批次重新命名檔案 (&B)\tCtrl+B"
+
+msgid "Numerically renames the destination of all items in the list"
+msgstr "以數字重新命名清單中所有項目的目的地"
+
+msgid "Remove selected entry\tDEL"
+msgstr "移除選取的項目\tDEL"
+
+msgid "Remove the selected file from the list"
+msgstr "從清單中移除選取的檔案"
+
+msgid "Clear list\tShift+DEL"
+msgstr "清除清單\tShift+DEL"
+
+msgid "Clear the file list"
+msgstr "清除檔案清單"
+
+msgid "Preferences\tCtrl+P"
+msgstr "偏好設定 (&P)\tCtrl+P"
+
+msgid "Application preferences"
+msgstr "應用程式偏好設定"
+
+msgid "Find FFmpeg topics"
+msgstr "尋找 FFmpeg 主題 (&F)"
+
+msgid "A useful tool to search for FFmpeg help topics and options"
+msgstr "搜尋 FFmpeg 說明主題與選項的實用工具"
+
+msgid "Check for preset updates"
+msgstr "檢查預設設定更新 (&C)"
+
+#, python-brace-format
+msgid "Check for new presets updates from {0}"
+msgstr "從 {0} 檢查新的預設設定更新"
+
+msgid "Get latest presets"
+msgstr "取得最新預設設定 (&G)"
+
+#, python-brace-format
+msgid "Get the latest presets from {0}"
+msgstr "從 {0} 取得最新預設設定"
+
+msgid "Work notes\tCtrl+N"
+msgstr "工作筆記 (&N)\tCtrl+N"
+
+msgid "Read and write useful notes and reminders."
+msgstr "讀取與寫入實用的筆記與提醒。"
+
+msgid "Tools"
+msgstr "工具 (&T)"
+
+msgid "Show FFmpeg's built-in configuration capabilities"
+msgstr "顯示 FFmpeg 的內建設定功能"
+
+msgid "Muxers and demuxers available on your version of FFmpeg"
+msgstr "您 FFmpeg 版本上可用的多工器與解多工器"
+
+msgid "Encoders available on your version of FFmpeg"
+msgstr "您 FFmpeg 版本上可用的編碼器"
+
+msgid "Decoders available on your version of FFmpeg"
+msgstr "您 FFmpeg 版本上可用的解碼器"
+
+msgid "Enable timestamps on playback"
+msgstr "播放時啟用時間戳記 (&E)"
+
+msgid "Displays timestamp when playing media with FFplay"
+msgstr "使用 FFplay 播放媒體時顯示時間戳記"
+
+msgid "Auto-exit after playback"
+msgstr "播放後自動退出 (&A)"
+
+msgid "If checked, the FFplay window will auto-close when playback is complete"
+msgstr "若勾選，FFplay 視窗將在播放完成時自動關閉"
+
+msgid "Customize the timestamp style"
+msgstr "自訂時間戳記樣式"
+
+msgid "While playing..."
+msgstr "播放時...(&W)"
+
+msgid "Show useful shortcut keys when playing or previewing using FFplay"
+msgstr "顯示使用 FFplay 播放或預覽時的實用快速鍵"
+
+msgid "Show timeline editor\tCtrl+T"
+msgstr "顯示時間軸編輯器 (&T)\tCtrl+T"
+
+msgid "Set duration or trim slices of time to remove unwanted parts from your files"
+msgstr "設定持續時間或修剪時間片段，以移除檔案中不需要的部分"
+
+msgid "View"
+msgstr "檢視 (&V)"
+
+msgid "Home panel\tCtrl+Shift+H"
+msgstr "首頁面板 (&H)\tCtrl+Shift+H"
+
+msgid "Go to the «Home» panel"
+msgstr "前往 «首頁» 面板"
+
+msgid "Presets Manager\tCtrl+Shift+P"
+msgstr "預設設定管理員 (&P)\tCtrl+Shift+P"
+
+msgid "Go to the «Presets Manager» panel"
+msgstr "前往 «預設設定管理員» 面板"
+
+msgid "A/V Conversions\tCtrl+Shift+V"
+msgstr "影音轉換 (&V)\tCtrl+Shift+V"
+
+msgid "Go to the «A/V Conversions» panel"
+msgstr "前往 «影音轉換» 面板"
+
+msgid "Concatenate Demuxer\tCtrl+Shift+D"
+msgstr "串接解多工器 (&D)\tCtrl+Shift+D"
+
+msgid "Go to the «Concatenate Demuxer» panel"
+msgstr "前往 «串接解多工器» 面板"
+
+msgid "Still Image Maker\tCtrl+Shift+I"
+msgstr "靜態影像製作器 (&I)\tCtrl+Shift+I"
+
+msgid "Go to the «Still Image Maker» panel"
+msgstr "前往 «靜態影像製作器» 面板"
+
+msgid "From Movie to Pictures\tCtrl+Shift+S"
+msgstr "從影片轉圖片 (&S)\tCtrl+Shift+S"
+
+msgid "Go to the «From Movie to Pictures» panel"
+msgstr "前往 «從影片轉圖片» 面板"
+
+msgid "Output monitor\tCtrl+Shift+O"
+msgstr "輸出監控 (&O)\tCtrl+Shift+O"
+
+msgid "Keeps track of the output for debugging errors"
+msgstr "追蹤輸出以偵錯"
+
+msgid "Go"
+msgstr "前往 (&G)"
+
+msgid "User guide"
+msgstr "使用者指南 (&U)"
+
+msgid "System version"
+msgstr "系統版本 (&S)"
+
+msgid "Get version about your operating system, version of Python and wxPython."
+msgstr "取得您的作業系統、Python 與 wxPython 的版本。"
+
+msgid "Show log files\tCtrl+L"
+msgstr "顯示記錄檔 (&L)\tCtrl+L"
+
+msgid "Viewing log messages"
+msgstr "檢視記錄訊息"
+
+msgid "Issue tracker"
+msgstr "問題追蹤器 (&I)"
+
+msgid "Contribute to the project"
+msgstr "貢獻至專案"
+
+msgid "Sponsor this project"
+msgstr "贊助此專案 (&S)"
+
+msgid "Become a developer supporter"
+msgstr "成為開發者的支持者"
+
+msgid "Donate"
+msgstr "捐款 (&D)"
+
+msgid "Donate to the app developer"
+msgstr "捐款給應用程式開發者"
+
+msgid "Other projects by the developer"
+msgstr "開發者的其他專案 (&O)"
+
+msgid "About Videomass"
+msgstr "關於 Videomass(&A)"
+
+msgid "Check for newer version"
+msgstr "檢查是否有較新版本 (&C)"
+
+msgid "Check for the latest Videomass version"
+msgstr "檢查最新的 Videomass 版本"
+
+msgid "Help"
+msgstr "說明 (&H)"
+
+msgid "Import files"
+msgstr "匯入檔案"
+
+msgid "No default folder has been set for the destination of the encodings. The current setting is \"Same destination paths as source files\"."
+msgstr ""
+"尚未設定編碼目的地的預設資料夾。目前的設定是「與來源檔案相同的目的地路徑」。"
+
+#, python-brace-format
+msgid ""
+"'{}':\n"
+"No such file or directory"
+msgstr ""
+"'{}'：\n"
+"沒有此檔案或目錄"
+
+msgid "Are you sure to empty trash folder?"
+msgstr "您確定要清空垃圾桶資料夾嗎？"
+
+#, python-brace-format
+msgid ""
+"'{}':\n"
+"There are no files to delete."
+msgstr ""
+"'{}'：\n"
+"沒有要刪除的檔案。"
+
+#, python-brace-format
+msgid "Installed release v{0}. A new presets release is available {1}"
+msgstr "已安裝版本 v{0}。有新的預設設定版本可用 {1}"
+
+#, python-brace-format
+msgid "Installed release v{0}. No new updates found."
+msgstr "已安裝版本 v{0}。找不到新的更新。"
+
+msgid ""
+"Wait....\n"
+"The archive is being downloaded"
+msgstr ""
+"請稍候....\n"
+"正在下載封存檔"
+
+#, python-brace-format
+msgid "Successfully downloaded to \"{0}\""
+msgstr "成功下載至 \"{0}\""
+
+msgid "Some changes require restarting the application."
+msgstr "某些變更需要重新啟動應用程式。"
+
+#, python-brace-format
+msgid ""
+"{0}\n"
+"\n"
+"Do you want to restart the application now?"
+msgstr ""
+"{0}\n"
+"\n"
+"您要立即重新啟動應用程式嗎？"
+
+msgid "Restart Videomass?"
+msgstr "重新啟動 Videomass？"
+
+#, python-brace-format
+msgid "A new release is available - v.{0}\n"
+msgstr "有新版本可用 - v.{0}\n"
+
+msgid "You are using a development version that has not yet been released!\n"
+msgstr "您正在使用尚未釋出的開發版本！\n"
+
+msgid "Congratulation! You are already using the latest version.\n"
+msgstr "恭喜！您已經在使用最新版本。\n"
+
+msgid "Previous panel"
+msgstr "上一個面板"
+
+msgid "Back"
+msgstr "上一步"
+
+msgid "Next panel"
+msgstr "下一個面板"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "Home panel"
+msgstr "首頁面板"
+
+msgid "Home"
+msgstr "首頁"
+
+msgid "Play the selected input file"
+msgstr "播放選取的輸入檔案"
+
+msgid "Play"
+msgstr "播放"
+
+msgid "Get informative data about imported media streams"
+msgstr "取得關於匯入媒體串流的資訊資料"
+
+msgid "Start batch processing"
+msgstr "開始批次處理"
+
+msgid "Stops current process"
+msgstr "停止目前程序"
+
+msgid "Add an item to Queue"
+msgstr "新增項目至佇列"
+
+msgid "Add to Queue"
+msgstr "加入佇列"
+
+msgid "Show queue"
+msgstr "顯示佇列"
+
+msgid "Videomass - File List"
+msgstr "Videomass - 檔案清單"
+
+msgid "Videomass - AV Conversions"
+msgstr "Videomass - 影音轉換"
+
+msgid "Videomass - Presets Manager"
+msgstr "Videomass - 預設設定管理員"
+
+msgid "Videomass - Concatenate Demuxer"
+msgstr "Videomass - 串接解多工器"
+
+msgid "Videomass - From Movie to Pictures"
+msgstr "Videomass - 從影片轉圖片"
+
+msgid "Videomass - Still Image Maker"
+msgstr "Videomass - 靜態影像製作器"
+
+msgid "Have to select an item in the file list first"
+msgstr "必須先在檔案清單中選取項目"
+
+msgid ""
+"An item with the same destination file already exists.\n"
+"\n"
+"Do you want to replace it by adding the new item to the queue?"
+msgstr ""
+"已有相同目的地檔案的項目存在。\n"
+"\n"
+"您要加入新項目至佇列以取代它嗎？"
+
+msgid "Videomass - FFmpeg Message Monitoring"
+msgstr "Videomass - FFmpeg 訊息監控"
+
+#, python-brace-format
+msgid "The system will turn off in {0} seconds"
+msgstr "系統將在 {0} 秒後關閉"
+
+msgid "Videomass - Shutdown!"
+msgstr "Videomass - 關機！"
+
+msgid "Error while shutting down. Please see file log for details."
+msgstr "關機時發生錯誤。請參閱檔案記錄以取得詳細資料。"
+
+#, python-brace-format
+msgid "Exiting the application in {0} seconds"
+msgstr "應用程式將在 {0} 秒後退出"
+
+msgid "Videomass - Exiting!"
+msgstr "Videomass - 正在退出！"
+
+msgid "Start point adjustment"
+msgstr "起點調整"
+
+msgid "End point adjustment"
+msgstr "終點調整"
+
+msgid "Hours"
+msgstr "小時"
+
+msgid "Minutes"
+msgstr "分鐘"
+
+msgid "Seconds"
+msgstr "秒"
+
+msgid "Milliseconds"
+msgstr "毫秒"
+
+msgid "No source duration:"
+msgstr "無來源持續時間："
+
+msgid "Wave"
+msgstr "波形"
+
+#, python-brace-format
+msgid "{0} {1}  |  Segment Duration: {2}"
+msgstr "{0} {1}  |  片段持續時間：{2}"
+
+msgid "End adjustment"
+msgstr "終點調整"
+
+msgid "Start adjustment"
+msgstr "起點調整"
+
+msgid "Toggles the display of the audio waveform in the background ruler"
+msgstr "切換在背景尺規顯示音訊波形"
+
+msgid "Reset segment on timeline"
+msgstr "重設時間軸上的片段"
+
+msgid "Timeline Editor Usage"
+msgstr "時間軸編輯器用法"
+
+msgid "Play segment"
+msgstr "播放片段"
+
+msgid "Invalid file format for playback."
+msgstr "無效的播放檔案格式。"
+
+msgid "No segment selected in the timeline yet."
+msgstr "尚未在時間軸選取片段。"
+
+msgid ""
+"Invalid segment selection!\n"
+"«End» cursor must be moved to the right side of the «Start» cursor."
+msgstr ""
+"無效的片段選取！\n"
+"«終點» 游標必須移動到 «起點» 游標的右側。"
+
+#, python-format
+msgid "Invalid or unsupported file:  %s"
+msgstr "無效或不支援的檔案： %s"
+
+#, python-brace-format
+msgid ""
+"Unable to create waveform.\n"
+"The selected source file does not contain any audio streams:\n"
+"\"{}\""
+msgstr ""
+"無法建立波形。\n"
+"選取的來源檔案不包含任何音訊串流：\n"
+"\"{}\""
+
+msgid ""
+"The timeline editor allows you to trim slices of time on selected files.\n"
+"The time format used to report durations is expressed in hours, minutes,\n"
+"seconds and milliseconds (HH:MM:SS.ms).\n"
+"\n"
+"The «Start»/«End» duration values always refer to the initial position of\n"
+"a overall duration. The overall duration of a file and the duration of a\n"
+"selected segment (including warnings) are displayed on the timeline\n"
+"status bar.\n"
+"\n"
+"Please note that actions such as importing new files, selecting, deselecting,\n"
+"deleting, and sorting items will reset the timeline to its default values.\n"
+"\n"
+"If no source file, the duration values ​​will be set to the default value\n"
+"(00:00:00.000) and all timeline controls will be disabled.\n"
+"This behavior also applies when deselecting files."
+msgstr ""
+"時間軸編輯器可讓您修剪選取檔案的時間片段。\n"
+"用於報告持續時間的時間格式為小時、分鐘、\n"
+"秒與毫秒 (HH:MM:SS.ms)。\n"
+"\n"
+"«起點»/«終點» 持續時間數值總是參照整體持續時間的\n"
+"初始位置。檔案的整體持續時間與選取片段的\n"
+"持續時間 (包含警告) 會顯示在時間軸\n"
+"狀態列上。\n"
+"\n"
+"請注意，匯入新檔案、選取、取消選取、\n"
+"刪除與排序項目等動作，會將時間軸重設為預設值。\n"
+"\n"
+"若無來源檔案，持續時間數值將設為預設值\n"
+"(00:00:00.000)，且所有時間軸控制項將被停用。\n"
+"此行為也適用於取消選取檔案時。"
+
+msgid "Source duration:"
+msgstr "來源持續時間："
+
+msgid "WARNING: Invalid segment selection, out of range."
+msgstr "警告：無效的片段選取，超出範圍。"
+
+msgid ""
+"Start by dragging the handles in the left corners or\n"
+"click the Start/End adjustment buttons for fine tuning."
+msgstr ""
+"從左下角拖曳控制點開始，或\n"
+"按一下 [起點/終點調整] 按鈕進行微調。"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "End"
+msgstr "結束"
+
+msgid "Media:"
+msgstr "媒體："
+
+msgid "Container:"
+msgstr "容器："
+
+msgid "Target"
+msgstr "目標"
+
+msgid "Miscellaneous"
+msgstr "雜項"
+
+msgid "Save as a new profile of the Presets Manager."
+msgstr "另存為預設設定管理員的新設定檔。"
+
+msgid "Displays the RAW commands for the selected file."
+msgstr "顯示選取檔案的 RAW 指令。"
+
+msgid "Available video encoders. \"Copy\" means that the video stream will not be re-encoded and will allow you (depending on the encoder) to change the container, audio codec and a few other parameters."
+msgstr ""
+"可用的視訊編碼器。「複製」表示視訊串流將不會重新編碼，並允許您 (取決於編碼"
+"器) 變更容器、音訊編解碼器與其他少數參數。"
+
+msgid ""
+"Container format. It is usually represented by the file extension (output format).\n"
+"\n"
+"If the Media target is set to \"Video\" and the Video Encoder to \"Copy\", optionally you can set this control to \"Copy\" the same container as source file.\n"
+"\n"
+"If the media target is set to \"Audio\", you can extract only the audio streams from videos, or simply convert audio source files."
+msgstr ""
+"容器格式。通常以副檔名 (輸出格式) 表示。\n"
+"\n"
+"如果媒體目標設為「視訊」，且視訊編碼器設為「複製」，您可以選擇性將此控制項設"
+"為「複製」，以使用與來源檔案相同的容器。\n"
+"\n"
+"如果媒體目標設為「音訊」，您可以只從視訊中擷取音訊串流，或單純轉換音訊來源檔"
+"案。"
+
+msgid ""
+"Set output files target: \"Video\" to save output files as video files; \"Audio\" to save files using an audio encoder and format.\n"
+"\n"
+"Note that by using \"Audio\" as the target, you will still be able to work on the video source files but you will only be able to extract the audio streams, convert them and apply audio filters such as normalization."
+msgstr ""
+"設定輸出檔案目標：「視訊」將輸出檔案儲存為視訊檔案；「音訊」則使用音訊編碼器"
+"與格式儲存檔案。\n"
+"\n"
+"請注意，使用「音訊」作為目標時，您仍可處理視訊來源檔案，但只能擷取音訊串流、"
+"轉換它們，並套用音訊過濾器 (例如正規化)。"
+
+msgid "Preview video filters"
+msgstr "預覽視訊過濾器"
+
+msgid "Disable active filters"
+msgstr "停用作用中的過濾器"
+
+msgid "Resize"
+msgstr "調整大小"
+
+msgid "Crop"
+msgstr "裁切"
+
+msgid "Transpose"
+msgstr "轉置"
+
+msgid "Denoise"
+msgstr "降噪"
+
+msgid "Stabilize"
+msgstr "穩定"
+
+msgid "Equalize"
+msgstr "等化"
+
+msgid "To preview Stabilize filter, please click Preview button on Video Stabilizer Tool"
+msgstr "若要預覽穩定過濾器，請按一下 [視訊穩定器工具] 上的 [預覽] 按鈕"
+
+msgid ""
+"Unsupported file:\n"
+"Missing decoder or library? Check FFmpeg configuration."
+msgstr ""
+"不支援的檔案：\n"
+"缺少解碼器或函式庫？請檢查 FFmpeg 設定。"
+
+msgid "The file is not a frame or a video file"
+msgstr "該檔案不是畫格或視訊檔案"
+
+msgid "Undetected volume values! Click the \"Volume detect\" button to analyze audio volume data."
+msgstr "未偵測到音量數值！按一下 [音量偵測] 按鈕以分析音訊音量資料。"
+
+msgid "Off"
+msgstr "關閉"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "No Subtitles"
+msgstr "無字幕"
+
+msgid ""
+"Batch processing items\n"
+"Destination\n"
+"Automation/Preset\n"
+"Encoding passes\n"
+"Output Format\n"
+"Video Codec\n"
+"Subtitle Stream\n"
+"Audio Codec\n"
+"Audio Normalization\n"
+"Output multimedia type\n"
+"Start of segment\n"
+"Clip duration"
+msgstr ""
+"批次處理項目\n"
+"目的地\n"
+"自動化/預設設定\n"
+"編碼行程\n"
+"輸出格式\n"
+"視訊編解碼器\n"
+"字幕串流\n"
+"音訊編解碼器\n"
+"音訊正規化\n"
+"輸出多媒體類型\n"
+"片段開始\n"
+"剪輯持續時間"
+
+#, python-brace-format
+msgid "Write profile on «{0}»"
+msgstr "寫入設定檔於 «{0}»"
+
+msgid "Enter name for new preset"
+msgstr "輸入新預設設定名稱"
+
+msgid "Invalid file name, make sure to provide a valid name including the «.json» extension"
+msgstr "無效的檔案名稱，請確認提供包含 «.json» 副檔名的有效名稱"
+
+#, python-brace-format
+msgid "Cannot save current data in file «{}»."
+msgstr "無法將目前資料儲存於檔案 «{}» 中。"
+
+msgid "Open Videomass preset"
+msgstr "開啟 Videomass 預設設定"
+
+msgid "Videomass - Save new profile"
+msgstr "Videomass - 儲存新設定檔"
+
+msgid "Where do you want to save this profile?"
+msgstr "您要將此設定檔儲存在哪裡？"
+
+msgid "Save the profile to a new preset"
+msgstr "將設定檔儲存至新預設設定"
+
+msgid "Save the profile to an existing preset"
+msgstr "將設定檔儲存至現有預設設定"
+
+msgid "Welcome to Videomass"
+msgstr "歡迎使用 Videomass"
+
+#, python-brace-format
+msgid "Version {}"
+msgstr "版本 {}"
+
+msgid "Presets Manager"
+msgstr "預設設定管理員"
+
+msgid "AV-Conversions"
+msgstr "影音轉換"
+
+msgid "Concatenate media files"
+msgstr "串接媒體檔案"
+
+msgid "Still Image Maker"
+msgstr "靜態影像製作器"
+
+msgid "From Movie to Pictures"
+msgstr "從影片轉圖片"
+
+msgid "Create, edit and use quickly your favorite FFmpeg presets and profiles with full formats support and codecs."
+msgstr ""
+"建立、編輯並快速使用您最愛的 FFmpeg 預設設定與設定檔，並支援完整的格式與編解"
+"碼器。"
+
+msgid "A set of useful tools for audio and video conversions. Save your profiles and reuse them with Presets Manager."
+msgstr ""
+"一組用於音訊與視訊轉換的實用工具。儲存您的設定檔，並使用預設設定管理員重複使"
+"用它們。"
+
+msgid "Concatenate multiple media files based on import order without re-encoding"
+msgstr "依據匯入順序串接多個媒體檔案，無需重新編碼"
+
+msgid "Create video from a sequence of images, based on import order, with the ability to add an audio file."
+msgstr "依據匯入順序從影像序列建立視訊，並可加入音訊檔案。"
+
+msgid "Extract images (frames) from your movies in JPG, PNG, BMP, GIF formats."
+msgstr "從您的影片中擷取 JPG、PNG、BMP、GIF 格式的影像 (畫格)。"
+
+msgid "At least two files are required to perform concatenation."
+msgstr "至少需要兩個檔案才能執行串接。"
+
+msgid "Invalid data found"
+msgstr "發現無效資料"
+
+msgid "The files do not have the same \"codec_types\", same \"sample_rate\" or same \"width\" or \"height\". Unable to proceed."
+msgstr ""
+"檔案沒有相同的 \"codec_types\"、\"sample_rate\" 或相同的 \"width\" 或 "
+"\"height\"。無法繼續。"
+
+msgid ""
+"\n"
+"- The concatenation function is performed only with Audio files or only with Video files.\n"
+"\n"
+"- The order of concatenation depends on the order in which the files were added.\n"
+"\n"
+"- The output file name will have the same name as the first file added (also depends on the\n"
+"  settings made in the preferences dialog or the renaming functions used).\n"
+"\n"
+"- Video files must have exactly same streams, same codecs and same\n"
+"  width/height, but can be wrapped in different container formats.\n"
+"\n"
+"- Audio files must have exactly the same formats, same codecs with equal sample rate."
+msgstr ""
+"\n"
+"- 串接功能僅適用於音訊檔案或僅適用於視訊檔案。\n"
+"\n"
+"- 串接順序取決於檔案加入的順序。\n"
+"\n"
+"- 輸出檔案名稱將與第一個加入的檔案名稱相同 (也取決於\n"
+"  偏好設定對話方塊中的設定或使用的重新命名功能)。\n"
+"\n"
+"- 視訊檔案必須擁有完全相同的串流、相同的編解碼器以及相同的\n"
+"  寬度/高度，但可封裝在不同的容器格式中。\n"
+"\n"
+"- 音訊檔案必須擁有完全相同的格式、相同的編解碼器以及相同的取樣率。"
+
+msgid "Videomass Documentation:"
+msgstr "Videomass 文件："
+
+msgid "Official FFmpeg documentation:"
+msgstr "官方 FFmpeg 文件："
+
+msgid ""
+"Items to concatenate\n"
+"File destination\n"
+"Output Format\n"
+"Output multimedia type\n"
+"Duration"
+msgstr ""
+"要串接的項目\n"
+"檔案目的地\n"
+"輸出格式\n"
+"輸出多媒體類型\n"
+"持續時間"
+
+msgid "File has illegal characters like:"
+msgstr "檔案包含非法字元，例如："
+
+msgid "Invalid character found in path name: (\")"
+msgstr "在路徑名稱中發現無效字元：(\")"
+
+msgid "Directories are not allowed, just add files, please."
+msgstr "不允許使用目錄，請只加入檔案。"
+
+msgid "File without format extension: please give an appropriate extension to the file name, example '.mkv', '.avi', '.mp3', etc."
+msgstr ""
+"檔案沒有格式副檔名：請給予檔案名稱適當的副檔名，例如 '.mkv'、'.avi'、'.mp3' "
+"等。"
+
+#, python-brace-format
+msgid "Name has illegal characters like: {0}"
+msgstr "名稱包含非法字元，例如：{0}"
+
+msgid "Name already in use:"
+msgstr "名稱已在使用中："
+
+msgid "Duplicate file, it has already been added to the list."
+msgstr "重複的檔案，它已經被加入清單中。"
+
+msgid "Rejected files"
+msgstr "被拒絕的檔案"
+
+msgid "Source file"
+msgstr "來源檔案"
+
+msgid "Duration"
+msgstr "持續時間"
+
+msgid "Media type"
+msgstr "媒體類型"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Drag one or more files below"
+msgstr "將一個或多個檔案拖曳至下方"
+
+msgid "Save to:"
+msgstr "儲存至："
+
+msgid "Set a new destination folder for encodings"
+msgstr "設定新的編碼目的地資料夾"
+
+msgid "Encodings destination folder"
+msgstr "編碼目的地資料夾"
+
+msgid "Play file"
+msgstr "播放檔案"
+
+msgid "Drag two or more Audio/Video files below"
+msgstr "將兩個或多個音訊/視訊檔案拖曳至下方"
+
+msgid "Drag one or more Image files below"
+msgstr "將一個或多個影像檔案拖曳至下方"
+
+msgid "Drag one or more Video files below"
+msgstr "將一個或多個視訊檔案拖曳至下方"
+
+msgid "Rename the file destination"
+msgstr "重新命名檔案目的地"
+
+msgid "Rename the selected file to:"
+msgstr "將選取的檔案重新命名為："
+
+msgid "Add Files"
+msgstr "加入檔案"
+
+msgid "Rename in batch"
+msgstr "批次重新命名"
+
+#, python-brace-format
+msgid "Rename the {0} items to:"
+msgstr "將 {0} 個項目重新命名為："
+
+msgid "New Name #"
+msgstr "新名稱 #"
+
+msgid "Sorry, all task failed !"
+msgstr "抱歉，所有工作皆失敗！"
+
+msgid "The process was stopped due to a fatal error."
+msgstr "由於發生嚴重錯誤，程序已停止。"
+
+msgid "Interrupted Process !"
+msgstr "程序已中斷！"
+
+msgid "Successfully completed !"
+msgstr "成功完成！"
+
+msgid "Not everything was successful."
+msgstr "並非所有項目都成功。"
+
+msgid "Encoding Status"
+msgstr "編碼狀態"
+
+msgid "Current Log"
+msgstr "目前記錄"
+
+msgid "Fatal Error !"
+msgstr "嚴重錯誤！"
+
+msgid "Get your files at the destination you specified"
+msgstr "在您指定的目的地取得您的檔案"
+
+msgid "For more details please read the Current Log."
+msgstr "如需更多詳細資料，請閱讀目前記錄。"
+
+msgid "...Finished"
+msgstr "...已完成"
+
+msgid "Please wait... interruption in progress"
+msgstr "請稍候... 正在中斷"
+
+msgid "...Interrupted"
+msgstr "...已中斷"
+
+msgid "Presets"
+msgstr "預設設定"
+
+msgid "Write"
+msgstr "寫入"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Duplicate"
+msgstr "複製"
+
+msgid "Profiles"
+msgstr "設定檔"
+
+msgid "One-Pass Encoding"
+msgstr "單次行程 (One-Pass) 編碼"
+
+msgid "Two-Pass Encoding"
+msgstr "二次行程 (Two-Pass) 編碼"
+
+msgid "Choose a preset and view its profiles"
+msgstr "選擇預設設定並檢視其設定檔"
+
+msgid "Write a new profile and save it in the selected preset"
+msgstr "寫入新設定檔並儲存於選取的預設設定"
+
+msgid "Delete the selected profile"
+msgstr "刪除選取的設定檔"
+
+msgid "Edit the selected profile"
+msgstr "編輯選取的設定檔"
+
+msgid "Duplicate the selected profile"
+msgstr "複製選取的設定檔"
+
+msgid "Create new preset"
+msgstr "建立新預設設定"
+
+msgid "Remove selected preset"
+msgstr "移除選取的預設設定"
+
+msgid "Backup selected preset"
+msgstr "備份選取的預設設定"
+
+msgid "Backup the presets folder"
+msgstr "備份預設設定資料夾"
+
+msgid "Restore a preset"
+msgstr "還原預設設定"
+
+msgid "Restore a presets folder"
+msgstr "還原預設設定資料夾"
+
+msgid "Resets the selected preset to default values"
+msgstr "將選取的預設設定重設為預設值"
+
+msgid "Reset all presets to default values"
+msgstr "將所有預設設定重設為預設值"
+
+msgid "Refresh the presets list"
+msgstr "重新整理預設設定清單"
+
+#, python-brace-format
+msgid ""
+"Outdated presets version found: v{1}\n"
+"A new version is available: v{0}\n"
+"\n"
+"This update provides new presets included on the latest versions of Videomass.\n"
+"\n"
+"To avoid data loss and allow for possible recovery, the outdated presets folder will be backed up in the program configuration directory:\n"
+"«{2}»\n"
+"\n"
+"Do you want to perform this update now?"
+msgstr ""
+"發現過期的預設設定版本：v{1}\n"
+"有新版本可用：v{0}\n"
+"\n"
+"此更新提供 Videomass 最新版本中包含的新預設設定。\n"
+"\n"
+"為避免資料遺失並允許可能的還原，過期的預設設定資料夾將會備份在程式設定目錄"
+"中：\n"
+"«{2}»\n"
+"\n"
+"您要立即執行此更新嗎？"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Output Format"
+msgstr "輸出格式"
+
+msgid "Supported Format List"
+msgstr "支援格式清單"
+
+#, python-brace-format
+msgid "Cannot save current data in file '{}'."
+msgstr "無法將目前資料儲存於檔案 '{}'。"
+
+msgid "You just successfully created a new preset!"
+msgstr "您剛才已成功建立新預設設定！"
+
+#, python-brace-format
+msgid ""
+"Are you sure you want to remove \"{}\" preset?\n"
+"\n"
+" It will be moved to the \"Removals\" subfolder inside the presets folder."
+msgstr ""
+"您確定要移除 \"{}\" 預設設定嗎？\n"
+"\n"
+" 它將會被移至預設設定資料夾內的 \"Removals\" 子資料夾。"
+
+#, python-brace-format
+msgid ""
+"{}\n"
+"\n"
+"Sorry, removal failed, cannot continue.."
+msgstr ""
+"{}\n"
+"\n"
+"抱歉，移除失敗，無法繼續.."
+
+#, python-brace-format
+msgid "The preset \"{0}\" was successfully removed"
+msgstr "預設設定 \"{0}\" 已成功移除"
+
+msgid "Open a destination folder"
+msgstr "開啟目的地資料夾"
+
+msgid "A file with this name already exists, do you want to overwrite it?"
+msgstr "此名稱的檔案已存在，您要覆寫它嗎？"
+
+msgid "Backup completed successfully"
+msgstr "備份成功完成"
+
+msgid "Open the preset you want to restore"
+msgstr "開啟您要還原的預設設定"
+
+msgid ""
+"This preset already exists and is about to be updated. Don't worry, it will keep all your saved profiles.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"此預設設定已存在且即將更新。別擔心，它會保留您所有已儲存的設定檔。\n"
+"\n"
+"您要繼續嗎？"
+
+msgid "Restore successful"
+msgstr "還原成功"
+
+msgid ""
+"This will update the presets database. Don't worry, it will keep all your saved profiles.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"這將會更新預設設定資料庫。別擔心，它會保留您所有已儲存的設定檔。\n"
+"\n"
+"您要繼續嗎？"
+
+msgid "Open the presets folder to restore"
+msgstr "開啟要還原的預設設定資料夾"
+
+msgid "The presets database has been successfully updated"
+msgstr "預設設定資料庫已成功更新"
+
+msgid "The selected preset is not part of Videomass's default presets."
+msgstr "選取的預設設定並非 Videomass 預設設定的一部分。"
+
+msgid ""
+"Be careful! The selected preset will be overwritten with the default one. Your profiles may be deleted!\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"請小心！選取的預設設定將會被預設值覆寫。您的設定檔可能會被刪除！\n"
+"\n"
+"您要繼續嗎？"
+
+msgid "Successful recovery"
+msgstr "成功還原"
+
+msgid ""
+"Be careful! This action will restore all presets to default ones. Your profiles may be deleted!\n"
+"\n"
+"In any case, to avoid data loss, the presets folder will be backed up in the program's configuration directory.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"請小心！此動作將會把所有預設設定還原為預設值。您的設定檔可能會被刪除！\n"
+"\n"
+"無論如何，為避免資料遺失，預設設定資料夾將會備份在程式的設定目錄中。\n"
+"\n"
+"您要繼續嗎？"
+
+#, python-brace-format
+msgid "Edit profile on «{0}»"
+msgstr "編輯設定檔於 «{0}»"
+
+msgid "Are you sure you want to delete the selected profile? It will no longer be possible to recover it."
+msgstr "您確定要刪除選取的設定檔嗎？它將無法再還原。"
+
+msgid "First select a profile in the list"
+msgstr "請先在清單中選取設定檔"
+
+msgid ""
+"The selected profile command has been changed manually.\n"
+"Do you want to apply it during the conversion process?"
+msgstr ""
+"選取的設定檔指令已手動變更。\n"
+"您要在轉換過程套用它嗎？"
+
+msgid "Don't show this dialog again"
+msgstr "不再顯示此對話方塊"
+
+msgid ""
+"Batch processing items\n"
+"Destination\n"
+"Automation/Preset\n"
+"Encoding passes\n"
+"Profile Used\n"
+"Output Format\n"
+"Start of segment\n"
+"Clip duration"
+msgstr ""
+"批次處理項目\n"
+"目的地\n"
+"自動化/預設設定\n"
+"編碼行程\n"
+"使用的設定檔\n"
+"輸出格式\n"
+"片段開始\n"
+"剪輯持續時間"
+
+msgid "Images need to be resized, please use Resize function."
+msgstr "影像需要調整大小，請使用調整大小功能。"
+
+msgid ""
+"\n"
+"1. Import one or more image files such as JPG, PNG and BMP formats (even in mixed mode),\n"
+"then select one as your starting point.\n"
+"\n"
+"2. Use the Resize tool if your images have different width and height dimensions.\n"
+"You only need to do this once for the selected file to automatically resize the other images.\n"
+"Otherwise, it's optional.\n"
+"\n"
+"3. Set a time interval between images, or for a single image if you\n"
+"«Enable a single still image» option.\n"
+"\n"
+"4. Run the conversion.\n"
+"\n"
+"\n"
+"The produced video will have the name of the selected file in the 'File List' panel, which\n"
+"will be saved in a folder named 'Still_Images' with a progressive digit, in the path you specify."
+msgstr ""
+"\n"
+"1. 匯入一個或多個影像檔案，例如 JPG、PNG 與 BMP 格式 (即使是混合模式)，\n"
+"然後選取一個作為您的起點。\n"
+"\n"
+"2. 如果您的影像寬度與高度尺寸不同，請使用調整大小工具。\n"
+"您只需要對選取的檔案執行一次，即可自動調整其他影像的大小。\n"
+"否則，此步驟為選用。\n"
+"\n"
+"3. 設定影像之間的時間間隔，若您選取\n"
+"«啟用單一靜態影像» 選項，則針對單一影像設定。\n"
+"\n"
+"4. 執行轉換。\n"
+"\n"
+"\n"
+"產生的視訊將會以 [檔案清單] 面板中選取的檔案命名，\n"
+"並儲存在您指定路徑中名為 'Still_Images' 的資料夾內，並附上遞增數字。"
+
+msgid "Enable a single still image"
+msgstr "啟用單一靜態影像"
+
+msgid "Time interval between images (in seconds):"
+msgstr "影像之間的時間間隔 (秒)："
+
+msgid ""
+"Force original aspect ratio using\n"
+"padding rather than stretching"
+msgstr ""
+"強制使用填補而非拉伸\n"
+"來維持原始長寬比"
+
+msgid "Include audio file"
+msgstr "包含音訊檔案"
+
+msgid "Play the video until audio track finishes"
+msgstr "播放視訊直到音軌結束"
+
+msgid "Open audio file"
+msgstr "開啟音訊檔案"
+
+msgid "Additional arguments"
+msgstr "附加引數"
+
+msgid "Open Audio File"
+msgstr "開啟音訊檔案"
+
+#, python-brace-format
+msgid ""
+"Invalid file: '{}'\n"
+"\n"
+"{}"
+msgstr ""
+"無效的檔案：'{}'\n"
+"\n"
+"{}"
+
+#, python-brace-format
+msgid ""
+"Invalid file: '{}'\n"
+"\n"
+"It doesn't appear to be an audio file."
+msgstr ""
+"無效的檔案：'{}'\n"
+"\n"
+"它似乎不是音訊檔案。"
+
+#, python-brace-format
+msgid "Invalid file: '{}'"
+msgstr "無效的檔案：'{}'"
+
+#, python-brace-format
+msgid "Unsupported format '{}'"
+msgstr "不支援的格式 '{}'"
+
+#, python-brace-format
+msgid ""
+"File does not exist:\n"
+"\n"
+"\"{}\"\n"
+msgstr ""
+"檔案不存在：\n"
+"\n"
+"\"{}\"\n"
+
+msgid "ERROR"
+msgstr "錯誤"
+
+msgid ""
+"Items to concatenate\n"
+"Output filename\n"
+"Destination\n"
+"Output Format\n"
+"Additional arguments\n"
+"Audio file\n"
+"Shortest\n"
+"Resize\n"
+"Pre-input\n"
+"Frame per Second (FPS)\n"
+"Still image duration\n"
+"Overall video duration"
+msgstr ""
+"要串接的項目\n"
+"輸出檔案名稱\n"
+"目的地\n"
+"輸出格式\n"
+"附加引數\n"
+"音訊檔案\n"
+"最短\n"
+"調整大小\n"
+"預輸入\n"
+"每秒畫格數 (FPS)\n"
+"靜態影像持續時間\n"
+"整體視訊持續時間"
+
+msgid ""
+"\n"
+"1. Import one or more video files, then select one.\n"
+"\n"
+"2. To select a slice of time use the Timeline editor (CTRL+T) by adjusting the\n"
+"\"End\" and the \"Start\" duration values.\n"
+"\n"
+"3. Select an output format (jpg, png, bmp).\n"
+"\n"
+"4. Start the conversion.\n"
+"\n"
+"\n"
+"The images produced will be saved in a folder named 'Movie_to_Pictures'\n"
+"with a progressive digit, in the path you specify."
+msgstr ""
+"\n"
+"1. 匯入一個或多個視訊檔案，然後選取一個。\n"
+"\n"
+"2. 若要選取時間片段，請使用時間軸編輯器 (CTRL+T)，調整\n"
+"「終點」與「起點」持續時間數值。\n"
+"\n"
+"3. 選取輸出格式 (jpg, png, bmp)。\n"
+"\n"
+"4. 開始轉換。\n"
+"\n"
+"\n"
+"產生的影像將會儲存在您指定路徑中名為 'Movie_to_Pictures'\n"
+"的資料夾內，並附上遞增數字。"
+
+msgid "Create thumbnails"
+msgstr "建立縮圖"
+
+msgid "Create tiled mosaics"
+msgstr "建立平鋪馬賽克"
+
+msgid "Create animated GIF"
+msgstr "建立動畫 GIF"
+
+msgid "Options"
+msgstr "選項"
+
+msgid "Output format:"
+msgstr "輸出格式："
+
+msgid "Rows:"
+msgstr "列："
+
+msgid "Columns:"
+msgstr "行："
+
+msgid "Other unofficial resources:"
+msgstr "其他非官方資源："
+
+msgid "Set FPS control from 0.1 to 30.0 fps. The higher this value, the more images will be extracted."
+msgstr "設定 FPS 控制，從 0.1 到 30.0 fps。數值越高，擷取的影像越多。"
+
+msgid "Spaces around the mosaic tiles. From 0 to 32 pixels"
+msgstr "馬賽克磚周圍的空間。從 0 到 32 像素"
+
+msgid "Spaces around the mosaic borders. From 0 to 32 pixels"
+msgstr "馬賽克邊框周圍的空間。從 0 到 32 像素"
+
+msgid ""
+"Selected File\n"
+"Output Format\n"
+"Destination\n"
+"Rate (fps)\n"
+"Resizing\n"
+"Mosaic rows\n"
+"Mosaic columns\n"
+"Mosaic padding\n"
+"Mosaic margin\n"
+"Custom Arguments\n"
+"Start of segment\n"
+"Duration"
+msgstr ""
+"選取的檔案\n"
+"輸出格式\n"
+"目的地\n"
+"速率 (fps)\n"
+"調整大小\n"
+"馬賽克列\n"
+"馬賽克行\n"
+"馬賽克填補\n"
+"馬賽克邊距\n"
+"自訂引數\n"
+"片段開始\n"
+"持續時間"
+
+msgid "Audio encoder settings, mapping and filters"
+msgstr "音訊編碼器設定、對應與過濾器"
+
+msgid "Audio Encoder"
+msgstr "音訊編碼器"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Index Selection:"
+msgstr "索引選取："
+
+msgid "Map:"
+msgstr "對應："
+
+msgid "Normalization"
+msgstr "正規化"
+
+msgid "Volume detect"
+msgstr "音量偵測"
+
+msgid "Volume Statistics"
+msgstr "音量統計"
+
+msgid "Target level:"
+msgstr "目標等級："
+
+msgid "Gets maximum volume and average volume data in dBFS, then calculates the offset amount for audio normalization."
+msgstr "取得 dBFS 中的最大音量與平均音量資料，然後計算音訊正規化的偏移量。"
+
+msgid "Limiter for the maximum peak level or the mean level (when switch to RMS) in dBFS. From -99.0 to +0.0; default for PEAK level is -1.0; default for RMS is -20.0"
+msgstr ""
+"dBFS 中最大峰值等級或平均等級 (切換至 RMS 時) 的限制器。從 -99.0 到 +0.0；"
+"PEAK 等級預設為 -1.0；RMS 預設為 -20.0"
+
+msgid ""
+"\"Auto\", lets FFmpeg select the audio stream to process (usually the first audio stream). If the source file(s) is just an audio track, it's recommend to always set this control to \"Auto\".\n"
+"\n"
+"\"1-16\", if a video file contains more than one audio stream, you can select a specific one, e.g \"1\" for the first available audio stream, \"2\" for the second audio stream, and so on."
+msgstr ""
+"「自動」，讓 FFmpeg 選取要處理的音訊串流 (通常是第一個音訊串流)。如果來源檔案"
+"只是音軌，建議總是將此控制項設為「自動」。\n"
+"\n"
+"「1-16」，如果視訊檔案包含多個音訊串流，您可以選取特定的一個，例如 \"1\" 代表"
+"第一個可用的音訊串流，\"2\" 代表第二個音訊串流，依此類推。"
+
+msgid ""
+"\"Auto\" keeps all audio streams and processes only the one selected by the \"Index Selection\" control.\n"
+"\n"
+"\"All\" processes all audio streams with the properties of the one selected by the \"Index Selection\" control. Don't use \"All\" to export audio files from videos.\n"
+"\n"
+"\"Index Only\" processes only the audio stream selected by the \"Index Selection\" control and removes all others from the output video."
+msgstr ""
+"「自動」保留所有音訊串流，並僅處理「索引選取」控制項所選取的那一個。\n"
+"\n"
+"「全部」處理所有音訊串流，並套用「索引選取」控制項所選取者的屬性。請勿使用"
+"「全部」從視訊匯出音訊檔案。\n"
+"\n"
+"「僅索引」僅處理「索引選取」控制項所選取的音訊串流，並從輸出視訊中移除所有其"
+"他串流。"
+
+msgid "Integrated Loudness Target in LUFS. From -70.0 to -5.0, default is -16.0"
+msgstr "LUFS 中的整合響度目標。從 -70.0 到 -5.0，預設為 -16.0"
+
+msgid "Maximum True Peak in dBTP. From -1.5 to +0.0, default is -2.0"
+msgstr "dBTP 中的最大真實峰值。從 -1.5 到 +0.0，預設為 -2.0"
+
+msgid "Loudness Range Target in LUFS. From +1.0 to +20.0, default is +11.0"
+msgstr "LUFS 中的響度範圍目標。從 +1.0 到 +20.0，預設為 +11.0"
+
+msgid "Play the audio stream selected in the \"Index Selection\" control. Using this function you can test the result of audio normalization."
+msgstr ""
+"播放「索引選取」控制項中選取的音訊串流。使用此功能可測試音訊正規化的結果。"
+
+#, python-brace-format
+msgid ""
+"Index does not exist in the selected source file:\n"
+"\"{}\""
+msgstr ""
+"選取的來源檔案中不存在索引：\n"
+"\"{}\""
+
+#, python-brace-format
+msgid ""
+"The source file does not contain any audio stream:\n"
+"\"{}\""
+msgstr ""
+"來源檔案不包含任何音訊串流：\n"
+"\"{}\""
+
+msgid "PEAK level normalization, which will produce a maximum peak level equal to the set target level."
+msgstr "PEAK 等級正規化，將產生等於設定目標等級的最大峰值等級。"
+
+msgid "RMS-based normalization, which according to mean volume calculates the amount of gain to reach same average power signal."
+msgstr "基於 RMS 的正規化，依據平均音量計算增益量，以達到相同的平均功率訊號。"
+
+msgid ""
+"Loudnorm normalization. Normalizes the perceived loudness using the \"loudnorm\" filter, which implements the EBU R128 algorithm.\n"
+"Ideal for live normalization. It produces worse results than the High-quality two-pass Loudnorm normalization, but is faster."
+msgstr ""
+"Loudnorm 正規化。使用 \"loudnorm\" 過濾器將感知響度正規化，實作 EBU R128 演算"
+"法。\n"
+"非常適合即時正規化。其結果比高品質二次行程 Loudnorm 正規化差，但速度較快。"
+
+msgid ""
+"High-quality two-pass Loudnorm normalization. Normalizes the perceived loudness using the \"loudnorm\" filter, which implements\n"
+"the EBU R128 algorithm. Ideal for postprocessing."
+msgstr ""
+"高品質二次行程 Loudnorm 正規化。使用 \"loudnorm\" 過濾器將感知響度正規化，實"
+"作\n"
+"EBU R128 演算法。非常適合後製處理。"
+
+msgid "You need to import at least one file"
+msgstr "您至少需要匯入一個檔案"
+
+msgid "Subtitle Properties"
+msgstr "字幕屬性"
+
+msgid "Subtitle Encoder"
+msgstr "字幕編碼器"
+
+msgid "Chapters and Metadata"
+msgstr "章節與中繼資料"
+
+msgid "Copy Chapters"
+msgstr "複製章節"
+
+msgid "Copy Metadata"
+msgstr "複製中繼資料"
+
+msgid ""
+"Select \"All\" to include any possible subtitle stream in the output video.\n"
+"\n"
+"Select \"1-16\" to indexing the desired subtitle stream and exclude all others, e.g \"1\" for the first available subtitle stream, \"2\" for the second subtitle stream, and so on."
+msgstr ""
+"選取「全部」以在輸出視訊中包含任何可能的字幕串流。\n"
+"\n"
+"選取 \"1-16\" 以索引所需的字幕串流並排除所有其他串流，例如 \"1\" 代表第一個可"
+"用的字幕串流，\"2\" 代表第二個字幕串流，依此類推。"
+
+msgid "Copy the chapter markers as is from source file."
+msgstr "從來源檔案依原樣複製章節標記。"
+
+msgid "Copy all incoming metadata from source file, such as audio/video tags, titles, unique marks, and so on."
+msgstr ""
+"從來源檔案複製所有傳入的中繼資料，例如音訊/視訊標籤、標題、唯一標記等。"
+
+msgid "Reload"
+msgstr "重新載入"
+
+msgid "Optimize for Web"
+msgstr "針對網頁最佳化"
+
+msgid "Reloads the selected video encoder settings. Changes will be discarded."
+msgstr "重新載入選取的視訊編碼器設定。變更將被捨棄。"
+
+msgid "Constant rate factor. Lower values correspond to higher quality and greater file size. Set to -1 to disable this control."
+msgstr ""
+"固定速率因子 (CRF)。較低的數值對應較高的品質與較大的檔案大小。設為 -1 以停用"
+"此控制項。"
+
+msgid "Number of tile rows to use, default changes per resolution"
+msgstr "使用的圖塊列數，預設值隨解析度變更"
+
+msgid "Number of tile columns to use, default changes per resolution"
+msgstr "使用的圖塊行數，預設值隨解析度變更"
+
+msgid "Set the Group Of Picture (GOP). Set to -1 to disable this control."
+msgstr "設定圖片群組 (GOP)。設為 -1 以停用此控制項。"
+
+msgid "It can reduce the file size, but takes longer."
+msgstr "它可以減少檔案大小，但花費時間較長。"
+
+msgid "Set minimum bitrate tolerance. Most useful in setting up a CBR encode. It is of little use otherwise. Set to -1 to disable this control."
+msgstr ""
+"設定最小位元率容許範圍。在設定 CBR 編碼時最有用。否則用途不大。設為 -1 以停用"
+"此控制項。"
+
+msgid "Specifies a maximum tolerance. Requires bufsize to be set. Set to -1 to disable this control."
+msgstr "指定最大容許範圍。需要設定 bufsize。設為 -1 以停用此控制項。"
+
+msgid "Set ratecontrol buffer size, which determines the variability of the output bitrate. Set to -1 to disable this control."
+msgstr ""
+"設定速率控制緩衝區大小，這決定了輸出位元率的變異性。設為 -1 以停用此控制項。"
+
+msgid "Specifies the target (average) bit rate for the encoder to use. Higher value = higher quality. Set -1 to disable this control."
+msgstr ""
+"指定編碼器使用的目標 (平均) 位元率。數值越高 = 品質越高。設為 -1 以停用此控制"
+"項。"
+
+msgid "Video width and video height ratio."
+msgstr "視訊寬度與視訊高度比率。"
+
+msgid "Frame rate (frames per second). Frames repeat a given number of times per second. In some countries this is 30 for NTSC, other countries (like Italy) use 25 for PAL"
+msgstr ""
+"畫格率 (每秒畫格數)。畫格每秒重複特定次數。在某些國家 NTSC 為 30，其他國家 "
+"(如義大利) PAL 使用 25"
+
+msgid "Quality/Speed ratio modifier. CPU Used sets how efficient the compression will be. Lower values mean slower encoding with better quality, and vice-versa. Valid values are from 0 to 8 inclusive."
+msgstr ""
+"品質/速度比率修飾符。CPU 使用率設定壓縮效率。較低的數值表示編碼較慢但品質較"
+"好，反之亦然。有效數值為 0 到 8 (含)。"
+
+msgid "Quality and compression efficiency vs speed trade-off. \"good\" is the default and recommended for most applications; \"realtime\" is recommended for live/fast encoding (live streaming, video conferencing, etc); \"allintra\" for All Intra encoding."
+msgstr ""
+"品質與壓縮效率 vs 速度的權衡。\"good\" 是預設值，推薦大多數應用程式使用；"
+"\"realtime\" 推薦用於即時/快速編碼 (直播串流、視訊會議等)；\"allintra\" 用於"
+"全幀內編碼。"
+
+msgid ""
+"Row Multi-Threading enables row-based multi-threading which maximizes CPU usage.\n"
+"\n"
+"To enable fast decoding performance, also set tiles (i.e. Tile Columns 4 and Tile Rows 1 or Tile Columns 2 and Tile Rows 2 for 4 tiles).\n"
+"\n"
+"Enabling Row Multi-Threading is only faster when the CPU has more threads than the number of encoded tiles."
+msgstr ""
+"列多執行緒啟用基於列的多執行緒，可最大化 CPU 使用率。\n"
+"\n"
+"若要啟用快速解碼效能，也請設定圖塊 (例如圖塊行 4 與圖塊列 1，或圖塊行 2 與圖"
+"塊列 2，共 4 個圖塊)。\n"
+"\n"
+"只有當 CPU 的執行緒數多於編碼圖塊數時，啟用列多執行緒才會比較快。"
+
+msgid ""
+"presets 1-3 represent extremely high efficiency, for use when encode time is not important and quality/size of the resulting video file is critical.\n"
+"\n"
+"Presets 4-6 are commonly used by home enthusiasts as they represent a balance of efficiency and reasonable compute time.\n"
+"\n"
+"Presets between 7 and 12 are used for fast and real-time encoding.\n"
+"\n"
+"Preset 13 is even faster but not intended for direct human consumption--it can be used, for example, as a per-scene quality metric in VOD applications. One should use the lowest preset that is tolerable."
+msgstr ""
+"預設設定 1-3 代表極高效率，用於編碼時間不重要，但結果視訊檔案的品質/大小至關"
+"重要時。\n"
+"\n"
+"預設設定 4-6 通常為家庭愛好者使用，因為它們代表效率與合理計算時間的平衡。\n"
+"\n"
+"預設設定 7 到 12 用於快速與即時編碼。\n"
+"\n"
+"預設設定 13 更快，但不適合直接供人觀看——例如可用作 VOD 應用程式中的每場景品質"
+"指標。應使用可容忍的最低預設設定。"
+
+msgid ""
+"Constant rate factor. This parameter governs the quality/size trade-off.\n"
+"\n"
+"Higher CRF values will result in a final output that takes less space, but begins to lose detail.\n"
+"\n"
+"Lower CRF values retain more detail at the cost of larger file sizes. A good starting point for 1080p video is 30.\n"
+"\n"
+"Set to -1 to disable this control."
+msgstr ""
+"固定速率因子 (CRF)。此參數控制品質/大小的權衡。\n"
+"\n"
+"較高的 CRF 數值會導致最終輸出佔用較少空間，但開始失去細節。\n"
+"\n"
+"較低的 CRF 數值會保留更多細節，代價是檔案較大。1080p 視訊的一個良好起點是 "
+"30。\n"
+"\n"
+"設為 -1 以停用此控制項。"
+
+msgid ""
+"The \"Film Grain\" parameter allows SVT-AV1 to detect and delete film grain from the source video, and replace it with synthetic grain of the same character, resulting in significant bitrate savings.\n"
+"\n"
+"A value of 8 is a reasonable starting point for live-action video with a normal amount of grain.\n"
+"\n"
+"Higher values in the range of 10-15 enable more aggressive use of this technique for video with lots of natural grain.\n"
+"\n"
+"For 2D animation, lower values in the range of 4-6 are often appropriate. \n"
+"\n"
+"If the source video does not have natural grain, this parameter can be set to -1 to disable it or at least 0."
+msgstr ""
+"「底片顆粒」參數允許 SVT-AV1 偵測並刪除來源視訊中的底片顆粒，並以相同特性的合"
+"成顆粒取代，從而顯著節省位元率。\n"
+"\n"
+"對於具有正常顆粒量的實景視訊，數值 8 是一個合理的起點。\n"
+"\n"
+"範圍 10-15 的較高數值可針對具有大量自然顆粒的視訊更積極地使用此技術。\n"
+"\n"
+"對於 2D 動畫，範圍 4-6 的較低數值通常很合適。\n"
+"\n"
+"如果來源視訊沒有自然顆粒，此參數可設為 -1 以停用，或至少設為 0。"
+
+msgid ""
+"If enabled, the \"Film Grain Denoiser\" option can mitigate the detail removal caused by high \"Film Grain\" values required to preserve the look of very grainy films\n"
+"\n"
+"By default, the denoised frames are passed to be encoded as the final pictures, enabling this feature will lead to the original frames to be used instead. "
+msgstr ""
+"若啟用，「底片顆粒降噪器」選項可減輕因保留高顆粒感影片外觀所需的高「底片顆"
+"粒」數值所造成的細節移除\n"
+"\n"
+"預設情況下，降噪後的畫格會被傳遞編碼為最終圖片，啟用此功能將導致改用原始畫"
+"格。"
+
+msgid "Enables encoder optimization to produce faster (less CPU intensive) bit streams to decode, similar to the fastdecode tuning in x264 and x265."
+msgstr ""
+"啟用編碼器最佳化以產生解碼速度更快 (較不消耗 CPU) 的位元串流，類似於 x264 與 "
+"x265 中的 fastdecode 調整。"
+
+msgid "Set profile restrictions"
+msgstr "設定設定檔限制"
+
+msgid "Specify level for a selected profile"
+msgstr "指定選取設定檔的等級"
+
+msgid "Tune the encoding params"
+msgstr "調整編碼參數"
+
+msgid "Set the encoding preset (default \"medium\")"
+msgstr "設定編碼預設設定 (預設 \"medium\")"
+
+msgid "specifies the target (average) bit rate for the encoder to use. Higher value = higher quality. Set -1 to disable this control."
+msgstr ""
+"指定編碼器使用的目標 (平均) 位元率。數值越高 = 品質越高。設為 -1 以停用此控制"
+"項。"
+
+msgid "Variable Bit Rate. From 0-30, with 1 being highest quality/largest filesize and 30 being the lowest quality/smallest filesize. Set to -1 to disable this control."
+msgstr ""
+"變動位元率 (VBR)。從 0-30，1 為最高品質/最大檔案大小，30 為最低品質/最小檔案"
+"大小。設為 -1 以停用此控制項。"
+
+msgid "Frames repeat a given number of times per second. In some countries this is 30 for NTSC, other countries (like Italy) use 25 for PAL"
+msgstr ""
+"畫格每秒重複特定次數。在某些國家 NTSC 為 30，其他國家 (如義大利) PAL 使用 25"
+
+msgid "The default FourCC stored in an MPEG-4-coded file will be FMP4. If you want a different FourCC, set this option to xvid to force the FourCC xvid to be stored as the video FourCC rather than the default."
+msgstr ""
+"儲存在 MPEG-4 編碼檔案中的預設 FourCC 為 FMP4。如果您想要不同的 FourCC，請將"
+"此選項設為 xvid，以強制儲存 FourCC xvid 為視訊 FourCC，而非預設值。"
+
+msgid "Copy Video Codec"
+msgstr "複製視訊編解碼器"
+
+msgid ""
+"This will just copy the video track as is, without any video re-encoding.\n"
+"You will only be able to change output format, select other audio encoders and\n"
+"a few other options."
+msgstr ""
+"這將會依原樣複製視訊軌，不做任何視訊重新編碼。\n"
+"您只能變更輸出格式、選取其他音訊編碼器以及\n"
+"其他少數選項。"
+
+msgid "Video export disabled"
+msgstr "視訊匯出已停用"
+
+msgid ""
+"The Media target you just selected will only allow you to export files as audio tracks.\n"
+"You can then process audio source files only or extract indexed audio streams on\n"
+"video files."
+msgstr ""
+"您剛選取的媒體目標僅允許您將檔案匯出為音軌。\n"
+"您只能處理音訊來源檔案，或擷取視訊檔案上的\n"
+"索引音訊串流。"
+
+msgid ""
+"Speed sets how efficient the compression will be.\n"
+"\n"
+"When the Quality parameter is \"good\" or \"best\", values for Speed can be set between 0 and 5.\n"
+"\n"
+"Using 1 or 2 will increase encoding speed at the expense of having some impact on quality and rate control accuracy.\n"
+"\n"
+"4 or 5 will turn off rate distortion optimization, having even more of an impact on quality.\n"
+"\n"
+"When the Quality is set to realtime, the available values for Speed are 0 to 8."
+msgstr ""
+"速度設定壓縮效率。\n"
+"\n"
+"當品質參數為 \"good\" 或 \"best\" 時，速度數值可設為 0 到 5 之間。\n"
+"\n"
+"使用 1 或 2 會增加編碼速度，但會對品質與速率控制準確度產生一些影響。\n"
+"\n"
+"4 或 5 會關閉速率失真最佳化，對品質產生更大的影響。\n"
+"\n"
+"當品質設為 realtime 時，速度的可用數值為 0 到 8。"
+
+msgid ""
+"Time to spend encoding.\n"
+"\n"
+"\"good\" is the default and recommended for most applications;\n"
+"\n"
+"\"best\" is recommended if you have lots of time and want the best compression efficiency;\n"
+"\n"
+"\"realtime\" is recommended for live / fast encoding."
+msgstr ""
+"花費在編碼的時間。\n"
+"\n"
+"\"good\" 是預設值，推薦大多數應用程式使用；\n"
+"\n"
+"\"best\" 推薦給您有大量時間且想要最佳壓縮效率的情況；\n"
+"\n"
+"\"realtime\" 推薦用於直播 / 快速編碼。"
+
+msgid ""
+"If enabled, adds support for row based multithreading which greatly enhances the number of threads the encoder can utilise. This improves encoding speed significantly on systems that are otherwise underutilised when encoding VP9. Since the amount of additional threads depends on the number of \"tiles\", which itself depends on the video resolution, encoding higher resolution videos will see a "
+"larger performance improvement."
+msgstr ""
+"若啟用，將加入對基於列的多執行緒支援，這會大幅提升編碼器可利用的執行緒數量。"
+"這在編碼 VP9 時，可顯著改善原本未充分利用的系統上的編碼速度。由於額外執行緒的"
+"數量取決於「圖塊」數量，而圖塊數量又取決於視訊解析度，因此編碼較高解析度的視"
+"訊將會看到較大的效能改善。"
+
+#, python-brace-format
+msgid "Supports ({0}) formats only, not ({1})"
+msgstr "僅支援 ({0}) 格式，不支援 ({1})"
+
+msgid "File formats not supported by the selected profile"
+msgstr "選取的設定檔不支援檔案格式"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid ""
+"No presets found.\n"
+"\n"
+"Possible solution: open the Presets Manager panel, go to the presets column and try to click the \"Restore all...\" button"
+msgstr ""
+"找不到預設設定。\n"
+"\n"
+"可能的解決方案：開啟 [預設設定管理員] 面板，前往預設設定欄位，嘗試按一下 [全"
+"部還原...] 按鈕"
+
+msgid "Import queue file"
+msgstr "匯入佇列檔案"
+
+#, python-brace-format
+msgid ""
+"ERROR: invalid data found loading queue file.\n"
+"«{0}»\n"
+"\n"
+"Cannot contain multiple occurrences in `destination` keys value."
+msgstr ""
+"錯誤：載入佇列檔案時發現無效資料。\n"
+"«{0}»\n"
+"\n"
+"`destination` 鍵值中不能包含多次出現。"
+
+msgid "Videomass - Add Items to Queue"
+msgstr "Videomass - 新增項目至佇列"
+
+msgid ""
+"Multiple items with identical names and destination paths cannot coexist.\n"
+"Please choose one of the following actions:"
+msgstr ""
+"具有相同名稱與目的地路徑的多個項目無法共存。\n"
+"請選擇以下動作之一："
+
+msgid "Replace occurrences with items from the imported queue."
+msgstr "使用匯入佇列中的項目取代出現的項目。"
+
+msgid "Add only the currently missing items to the queue."
+msgstr "僅將目前缺少的項目加入佇列。"
+
+msgid "Remove the current queue and replace it with the imported one."
+msgstr "移除目前佇列並以匯入的佇列取代。"
+
